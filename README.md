@@ -1,95 +1,101 @@
-# DA3408 Assignment 3: Spark vs Ray
+# DA3408 Assignment 3: Spark vs. Ray (NYC Yellow Taxi, Jan-Jun 2023)
 
-Use `STEP_BY_STEP.md` for the exact commands. All compute runs inside your Ubuntu
-UTM VM. The Mac is used to transfer files and open the dashboards.
+M. Sai Teja, DA24B031. The same data-cleaning pipeline is implemented in Apache Spark and Ray Data, run on a two-worker cluster for each framework, and benchmarked. The benchmark report is submitted separately as a PDF with the UI screenshots.
+
+## Environment (what the reported runs used)
+
+- One 6-core, 7.2 GiB aarch64 Ubuntu VM (UTM/QEMU). Every cluster node is a Docker container built from `Dockerfile` (image `taxi-a3:1`) on one bridge network, `a3-net`. This is a single-host setup, so it does not measure network scaling across machines.
+- Spark 3.5.7, Ray 2.49.2, Python 3.11.17, pyarrow 19.0.1, pandas 2.2.3 (see `requirements.txt`).
+- **Spark:** master + 2 workers (2 cores, 2 GiB executor memory each, 3 GiB container limit) + a driver container (768 MB driver memory); 4 executor cores in total.
+- **Ray:** head (no task CPUs) + 2 workers (2 CPUs each, 1 GiB object store each, 3 GiB container limit); 4 CPUs in total.
+- Only one framework's cluster ran at a time (not enough RAM for both).
+
+Worker containers, as run:
+
+```bash
+# Spark worker (repeat for spark-worker-2)
+sudo docker run -d --name spark-worker-1 --hostname spark-worker-1 --network a3-net \
+  --cpus=2 --memory=3g -v "$PWD:/project" taxi-a3:1 \
+  spark-class org.apache.spark.deploy.worker.Worker \
+  --host spark-worker-1 --cores 2 --memory 2g --webui-port 8081 spark://spark-master:7077
+
+# Ray worker (repeat for ray-worker-2)
+sudo docker run -d --name ray-worker-1 --hostname ray-worker-1 --network a3-net \
+  --cpus=2 --memory=3g --shm-size=1280m -v "$PWD:/project" taxi-a3:1 \
+  bash -lc 'ray start --address=ray-head:6379 --node-ip-address="$(hostname -i)" --num-cpus=2 --memory=1073741824 --object-store-memory=1073741824 --resources="{\"data_worker\":1}" --object-spilling-directory=/project/tmp/ray-worker-1 --block'
+```
+
+The coordinator containers (`spark-master`, `spark-driver`, `ray-head`) run on the same network.
 
 ## Files
 
 | File | Purpose |
 |---|---|
-| `spark_clean.py`, `ray_clean.py` | Required matching distributed pipelines |
-| `common.py` | Shared schema, rules and identical scalar Python feature function |
-| `Dockerfile`, `requirements.txt` | One ARM64/AMD64-compatible software environment |
-| `validate_data.py` | File/schema/size checks and SHA-256 input manifest |
-| `measure_run.py` | Actual wall-clock resource monitoring and raw `top` logs |
-| `verify_outputs.py` | Full exact multiset comparison, including duplicates and nulls |
-| `prepare_udf_input.py`, `udf_benchmark.py` | Separate experiments using the same real trip rows |
-| `summarize_results.py` | CSV and plots from your measured runs only |
-| `DA3408_A3_Report.pdf' | Report and summary |
+| `spark_clean.py` | Spark pipeline |
+| `ray_clean.py` | Ray Data pipeline. This is the final version; it was developed and run as `ray_clean_joinfixed.py` (implementation tag `arrow_clean_explicit_ranges_composite_location_join_v5`). Earlier tuning versions are in `experiments/`. |
+| `common.py` | Shared schema, cleaning rules, location lookup and the identical Python feature function |
+| `measure_run.py` | Wall-clock timing plus CPU and memory sampling of the containers; writes the run JSON |
+| `udf_bench_spark.py`, `udf_bench_ray.py` | Python-UDF micro-benchmark on the finished output |
+| `verify_outputs.py` | Exact row-by-row comparison (`EXCEPT ALL` both ways), used on the 1-month outputs |
+| `fast_parity.py`, `dup_check.py` | 6-month parity (row count, columns, order-independent row hash) and duplicate check |
+| `Dockerfile`, `requirements.txt` | The software environment |
+| `artifacts/` | The measured run files (JSON) behind every number in the report |
+| `experiments/` | Earlier Ray versions and checks from the tuning process |
+| 'DA3408_A3_Report.pdf | Report |
 
-## Assumed environment
+## Pipeline (identical in both frameworks)
 
-Ubuntu 22.04 or 24.04, preferably ARM64 virtualized on your M3 Mac; 4 virtual CPUs,
-8 GiB RAM and at least 40 GiB free disk. There are two data-worker containers per
-framework, with one CPU each. Both workers share the same mounted directory.
-Only one framework runs at a time. Each worker has a 2304 MiB container memory
-limit; the driver has 1536 MiB; the coordinator has 1024 MiB.
+Ingest the monthly Parquet files and the taxi-zone lookup; drop rows with nulls in any of the 19 source columns; apply validity filters (passengers 1-8, 0 < distance <= 1000, 0 < duration <= 24 h, non-negative fares, vendor and rate code > 0, flag in Y/N, pickup within the selected months); global DISTINCT over all 19 columns across all files; two INNER joins to the zone lookup (pickup and dropoff); the same Python function computes `avg_speed_mph`, `fare_per_mile`, `fare_per_minute`; export Snappy Parquet (30 columns). The full rule text is in the `rules` field of each run JSON in `artifacts/`.
 
-These are distinct distributed worker processes/nodes on ONE physical VM. In the
-report disclose the container topology: this does not measure network scaling
-across separate physical hosts. If your TA explicitly requires separate worker
-VMs, this container topology must be adapted before benchmarking.
+## How the reported runs were started
 
-## Input
+```bash
+# Spark, 6 months
+sudo python3 measure_run.py \
+  --metrics artifacts/spark_6months_run2.json \
+  --containers spark-master spark-worker-1 spark-worker-2 spark-driver \
+  --workers spark-worker-1 spark-worker-2 \
+  -- docker exec spark-driver spark-submit \
+  --master spark://spark-master:7077 --deploy-mode client \
+  --driver-memory 768m --executor-memory 2g --executor-cores 2 --total-executor-cores 4 \
+  --conf spark.driver.host=spark-driver --conf spark.driver.bindAddress=0.0.0.0 \
+  --conf spark.driver.port=7079 --conf spark.blockManager.port=7080 \
+  spark_clean.py --months 6 --partitions 64 \
+  --output /project/outputs/spark_6months_run2 \
+  --metrics /project/artifacts/spark_6months_run2.json
 
-Keep the nine downloaded files unchanged, named
-`yellow_tripdata_2023-01.parquet` through `yellow_tripdata_2023-09.parquet`, in
-`data/trips/`. Download the official `taxi_zone_lookup.csv` as shown in the guide.
-Source: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+# Ray, 6 months (the run used the file now named ray_clean.py)
+sudo python3 measure_run.py \
+  --metrics artifacts/ray_joinfixed_6months_run1.json \
+  --containers ray-head ray-worker-1 ray-worker-2 \
+  --workers ray-worker-1 ray-worker-2 \
+  -- docker exec ray-head python3 ray_clean_joinfixed.py \
+  --address ray-head:6379 --months 6 --partitions 64 --shuffle pull \
+  --read-blocks-per-file 1 --block-mib 64 \
+  --output /project/outputs/ray_joinfixed_6months_run1 \
+  --metrics /project/artifacts/ray_joinfixed_6months_run1.json
 
-The file checker reports actual compressed bytes and row counts. Do not claim
-the downloaded files total 2 GB unless the measurement supports it. Parquet disk
-size and decoded in-memory size differ.
+# Parity and duplicate checks on the two 6-month outputs
+sudo docker run --rm --cpus=2 --memory=4g -v "$PWD:/project" taxi-a3:1 python3 fast_parity.py
+sudo docker run --rm --cpus=2 --memory=4g -v "$PWD:/project" taxi-a3:1 python3 dup_check.py
+```
 
-## Identical logic
+The data directory and zone-lookup paths are set by the `--data-dir` and `--zones` options in `common.py`. Download the monthly files and `taxi_zone_lookup.csv` from the NYC TLC trip-record page.
 
-1. Normalize all 19 standard 2023 source fields to the same types. Preserve all
-   source fields. Reject null/non-finite values and non-integral integer fields.
-2. Keep pickups from January 1 through the end of the selected period. Keep
-   positive durations up to 24 hours, distances in (0, 1000] miles, passenger
-   counts 1-8, nonnegative fare/total, positive vendor/ratecode, and Y/N flags.
-   These are explicit experimental cleaning choices, not rules mandated by TLC.
-3. Remove exact duplicates globally across every selected input file, using all
-   19 normalized columns. Duplicates that differ in source fees are not merged.
-4. Perform two native distributed inner joins, on pickup and dropoff LocationID.
-   The lookup must have unique IDs. Blank dimension labels become `Unknown`.
-   Spark disables automatic broadcast joins and requests sort-merge joins;
-   Ray uses native Ray Data hash joins, not a driver-side pandas join.
-5. Preserve timestamps as naive local wall-clock values at microsecond precision.
-   Compute microsecond duration and pickup hour. This does not infer real UTC
-   offsets or resolve ambiguous daylight-saving timestamps.
-6. Apply the same `python_features()` function to produce miles/hour, fare/mile
-   and fare/minute, rounded to six decimal places. No artificial CPU-burning
-   computation is added. Export all 30 columns as Snappy-compressed Parquet.
+## Results (6 months, 19,493,620 input rows, 18,253,326 output rows)
 
-`verify_outputs.py` checks logical schema and every row in both directions with
-`EXCEPT ALL`; it does not depend on file names, partition order or hashes alone.
+| Metric | Spark run 1 | Spark run 2 | Ray |
+|---|---|---|---|
+| End-to-end time | 186.6 s | 253.2 s | 780.7 s |
+| Peak CPU, cluster (400% = 4 cores) | 487% | 437% | 503% |
+| Peak memory, cluster (working set) | 5.83 GiB | 5.81 GiB | 6.67 GiB |
 
-## Measurement definitions
+UDF micro-benchmark (18.25M rows): Python UDF overhead 50.2 s (Spark, 1 run) vs 32.1 s (Ray, median of 3 runs, range 31.7 to 46.1 s); native expression 3.7 s (Spark) vs 9.2 s (Ray, median).
 
-- End-to-end time: pipeline construction/read planning through completed final
-  export. Initial cluster/driver connection, preliminary file inventory, output
-  inspection, monitoring startup and screenshot hold time are excluded.
-- CPU: observed simultaneous sum across worker cgroups, with 100% representing
-  one CPU core. A separate whole-cluster peak includes coordinator and driver.
-- Memory: simultaneous working-set sum (`memory.current - inactive_file`). Raw
-  charged memory is also saved. One-second sampling can miss shorter spikes.
-- UDF experiment: same real, materialized three-column input for both systems;
-  three modes (scan/reduce, Python identity/reduce, Python features/reduce).
-  Every mode is warmed once and timed three times with rotated ordering.
-  Differences estimate overhead; they do not isolate JVM crossings alone.
-  Spill/caching differences and task scheduling are part of the limitation.
+Parity: the Spark and Ray outputs have the same rows, columns and dtypes, an identical order-independent row hash, and 0 duplicate rows. The 1-month outputs were also compared row by row (0 differences).
 
-No results, benchmark values, screenshots or winner are bundled. You must obtain
-them from your own runs. The plotting script refuses local-test metrics.
+## Limits
 
-## Validation performed before delivery
-
-Python syntax and installed version-specific API signatures were checked.
-The local Spark pipeline completed on edge-case fixtures; Ray's actual batch
-cleaning/feature functions with local Arrow reference joins produced the exact
-same rows. The Spark UDF experiment and full exact output checker also ran.
-Those fixtures and their timings are not included as assignment benchmarks.
-Docker is not available in the authoring workspace, and Ray cluster startup is
-blocked there by socket restrictions. The full image, ARM64 distributed runs,
-resource sampling and real nine-month performance must be checked in your VM.
+- Six of the nine downloaded months. The Ray configurations tried on nine months ran out of memory or disk on this VM.
+- One VM hosts every node; absolute times would differ on separate machines.
+- Run counts: two Spark end-to-end runs, one Ray end-to-end run; UDF benchmark has one Spark run and three Ray runs.
