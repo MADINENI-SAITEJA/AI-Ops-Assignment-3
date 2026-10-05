@@ -15,7 +15,7 @@ UTM VM. The Mac is used to transfer files and open the dashboards.
 | `verify_outputs.py` | Full exact multiset comparison, including duplicates and nulls |
 | `prepare_udf_input.py`, `udf_benchmark.py` | Separate experiments using the same real trip rows |
 | `summarize_results.py` | CSV and plots from your measured runs only |
-| `REPORT_GUIDANCE.md` | Required screenshots, report evidence and AI attribution |
+| `DA3408_A3_Report.pdf' | Report and summary |
 
 ## Assumed environment
 
