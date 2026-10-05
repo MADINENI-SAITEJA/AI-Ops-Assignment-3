@@ -1,0 +1,148 @@
+{
+  "framework": "spark",
+  "valid_distributed_run": true,
+  "e2e_seconds": 186.6259185350009,
+  "pipeline_started_epoch": 1791182857.2887206,
+  "pipeline_finished_epoch": 1791183043.914677,
+  "input": [
+    {
+      "file": "yellow_tripdata_2023-01.parquet",
+      "bytes": 47673370,
+      "rows": 3066766
+    },
+    {
+      "file": "yellow_tripdata_2023-02.parquet",
+      "bytes": 47748012,
+      "rows": 2913955
+    },
+    {
+      "file": "yellow_tripdata_2023-03.parquet",
+      "bytes": 56127762,
+      "rows": 3403766
+    },
+    {
+      "file": "yellow_tripdata_2023-04.parquet",
+      "bytes": 54222699,
+      "rows": 3288250
+    },
+    {
+      "file": "yellow_tripdata_2023-05.parquet",
+      "bytes": 58654627,
+      "rows": 3513649
+    },
+    {
+      "file": "yellow_tripdata_2023-06.parquet",
+      "bytes": 54999465,
+      "rows": 3307234
+    }
+  ],
+  "input_bytes": 319425935,
+  "input_rows": 19493620,
+  "output": {
+    "rows": 18253326,
+    "files": 64,
+    "bytes": 695461761
+  },
+  "output_path": "/project/outputs/spark_6months_run1",
+  "months": 6,
+  "partitions": 64,
+  "rules": {
+    "columns": [
+      "VendorID",
+      "tpep_pickup_datetime",
+      "tpep_dropoff_datetime",
+      "passenger_count",
+      "trip_distance",
+      "RatecodeID",
+      "store_and_fwd_flag",
+      "PULocationID",
+      "DOLocationID",
+      "payment_type",
+      "fare_amount",
+      "extra",
+      "mta_tax",
+      "tip_amount",
+      "tolls_amount",
+      "improvement_surcharge",
+      "total_amount",
+      "congestion_surcharge",
+      "airport_fee"
+    ],
+    "nulls": "Drop rows missing ANY of the 19 normalized source columns.",
+    "numeric": "Finite doubles; integral int64 values; normalize signed zero.",
+    "timestamps": "Naive local wall-clock values at microsecond precision; no UTC conversion.",
+    "pickup_window": "2023-01-01 inclusive to first day after selected final month exclusive.",
+    "filters": "1<=passenger_count<=8; 0<trip_distance<=1000; 0<duration<=24h; fare_amount,total_amount>=0; VendorID,RatecodeID>0; flag in Y,N.",
+    "duplicates": "Global DISTINCT on all 19 normalized source columns, across ALL selected files.",
+    "joins": "Two INNER equijoins to unique LocationID lookup: pickup and dropoff; blank labels become Unknown.",
+    "features": "Identical shared scalar Python function; three double values rounded to 6 decimal places."
+  },
+  "environment": {
+    "python": "3.11.17",
+    "architecture": "aarch64",
+    "spark": "3.5.7",
+    "ray": "2.49.2",
+    "pyarrow": "19.0.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6"
+  },
+  "cluster": [
+    {
+      "id": "worker-20261005064558-spark-worker-1-40757",
+      "host": "spark-worker-1",
+      "cores": 2,
+      "memory": 2048,
+      "state": "ALIVE"
+    },
+    {
+      "id": "worker-20261005064626-spark-worker-2-35105",
+      "host": "spark-worker-2",
+      "cores": 2,
+      "memory": 2048,
+      "state": "ALIVE"
+    }
+  ],
+  "application_id": "app-20261005064735-0000",
+  "timing_scope": "From constructing reads through completed Parquet export; excludes cluster/driver startup, output inspection and UI hold.",
+  "resources": {
+    "cluster": {
+      "peak_cpu_percent": 487.3436935309999,
+      "peak_memory_working_set_bytes": 6259425280,
+      "peak_memory_charged_bytes": 7421673472
+    },
+    "workers": {
+      "peak_cpu_percent": 409.76031071584777,
+      "peak_memory_working_set_bytes": 5432897536,
+      "peak_memory_charged_bytes": 6442778624
+    },
+    "sample_interval_seconds": 1.0,
+    "sample_count": 186,
+    "definition": "Observed aggregate container peaks DURING ingestion-to-export. CPU 100%=one core; memory working set=current-inactive_file. Whole-cluster includes coordinator and driver; workers is the two data nodes only. Sampling may miss sub-second spikes; top raw logs retained.",
+    "container_budgets": [
+      {
+        "name": "spark-master",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 0.5,
+        "memory_limit_bytes": 1073741824
+      },
+      {
+        "name": "spark-worker-1",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 2.0,
+        "memory_limit_bytes": 3221225472
+      },
+      {
+        "name": "spark-worker-2",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 2.0,
+        "memory_limit_bytes": 3221225472
+      },
+      {
+        "name": "spark-driver",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 1.0,
+        "memory_limit_bytes": 1610612736
+      }
+    ]
+  }
+}

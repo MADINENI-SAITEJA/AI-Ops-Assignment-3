@@ -1,0 +1,8 @@
+{
+  "framework": "spark",
+  "base_s": 0.9820175170898438,
+  "udf_total_s": 51.13531422615051,
+  "native_total_s": 3.732844829559326,
+  "udf_overhead_s": 50.15329670906067,
+  "native_overhead_s": 2.7508273124694824
+}

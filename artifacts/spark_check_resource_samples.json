@@ -1,0 +1,2617 @@
+{
+  "samples": [
+    {
+      "epoch": 1791139775.0834882,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.11825204587818118,
+          "memory_current_bytes": 234057728,
+          "memory_working_set_bytes": 159121408
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.10169798756223516,
+          "memory_current_bytes": 141357056,
+          "memory_working_set_bytes": 140980224
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.10690501393296412,
+          "memory_current_bytes": 146669568,
+          "memory_working_set_bytes": 146604032
+        },
+        "spark-driver": {
+          "cpu_percent": 94.75357427879078,
+          "memory_current_bytes": 88227840,
+          "memory_working_set_bytes": 64913408
+        }
+      }
+    },
+    {
+      "epoch": 1791139776.0841806,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07215014064533162,
+          "memory_current_bytes": 234057728,
+          "memory_working_set_bytes": 159121408
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.09163617842579219,
+          "memory_current_bytes": 141357056,
+          "memory_working_set_bytes": 140980224
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.08024404582684845,
+          "memory_current_bytes": 146669568,
+          "memory_working_set_bytes": 146604032
+        },
+        "spark-driver": {
+          "cpu_percent": 99.92671248968743,
+          "memory_current_bytes": 127066112,
+          "memory_working_set_bytes": 95207424
+        }
+      }
+    },
+    {
+      "epoch": 1791139777.084862,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08444239542447349,
+          "memory_current_bytes": 234057728,
+          "memory_working_set_bytes": 159121408
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.08354327336548507,
+          "memory_current_bytes": 141357056,
+          "memory_working_set_bytes": 140980224
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.10642795168246662,
+          "memory_current_bytes": 146669568,
+          "memory_working_set_bytes": 146604032
+        },
+        "spark-driver": {
+          "cpu_percent": 93.79481563557337,
+          "memory_current_bytes": 216350720,
+          "memory_working_set_bytes": 168296448
+        }
+      }
+    },
+    {
+      "epoch": 1791139778.0856001,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 2.8032328232311383,
+          "memory_current_bytes": 234840064,
+          "memory_working_set_bytes": 159903744
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.08603525047270053,
+          "memory_current_bytes": 141357056,
+          "memory_working_set_bytes": 140980224
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.09712687075078194,
+          "memory_current_bytes": 146669568,
+          "memory_working_set_bytes": 146604032
+        },
+        "spark-driver": {
+          "cpu_percent": 93.44161369077615,
+          "memory_current_bytes": 336039936,
+          "memory_working_set_bytes": 278949888
+        }
+      }
+    },
+    {
+      "epoch": 1791139779.090994,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.37955234357301487,
+          "memory_current_bytes": 234840064,
+          "memory_working_set_bytes": 159903744
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.0824530009267005,
+          "memory_current_bytes": 141357056,
+          "memory_working_set_bytes": 140980224
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.10611301273746172,
+          "memory_current_bytes": 146669568,
+          "memory_working_set_bytes": 146604032
+        },
+        "spark-driver": {
+          "cpu_percent": 99.44511493844405,
+          "memory_current_bytes": 375615488,
+          "memory_working_set_bytes": 313528320
+        }
+      }
+    },
+    {
+      "epoch": 1791139780.0919025,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 30.9806460590496,
+          "memory_current_bytes": 237748224,
+          "memory_working_set_bytes": 162811904
+        },
+        "spark-worker-1": {
+          "cpu_percent": 65.85934447230024,
+          "memory_current_bytes": 176013312,
+          "memory_working_set_bytes": 175464448
+        },
+        "spark-worker-2": {
+          "cpu_percent": 59.80002994678118,
+          "memory_current_bytes": 189562880,
+          "memory_working_set_bytes": 189440000
+        },
+        "spark-driver": {
+          "cpu_percent": 96.12351721198154,
+          "memory_current_bytes": 401801216,
+          "memory_working_set_bytes": 335708160
+        }
+      }
+    },
+    {
+      "epoch": 1791139781.0936766,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.2661278535267675,
+          "memory_current_bytes": 237539328,
+          "memory_working_set_bytes": 162603008
+        },
+        "spark-worker-1": {
+          "cpu_percent": 100.69296976533357,
+          "memory_current_bytes": 221716480,
+          "memory_working_set_bytes": 220008448
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.15965252658863,
+          "memory_current_bytes": 226263040,
+          "memory_working_set_bytes": 225083392
+        },
+        "spark-driver": {
+          "cpu_percent": 100.07366534116247,
+          "memory_current_bytes": 445628416,
+          "memory_working_set_bytes": 363737088
+        }
+      }
+    },
+    {
+      "epoch": 1791139782.0949955,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0969721736081221,
+          "memory_current_bytes": 237539328,
+          "memory_working_set_bytes": 162603008
+        },
+        "spark-worker-1": {
+          "cpu_percent": 102.1548370776666,
+          "memory_current_bytes": 242872320,
+          "memory_working_set_bytes": 241164288
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.86492034503335,
+          "memory_current_bytes": 259350528,
+          "memory_working_set_bytes": 246181888
+        },
+        "spark-driver": {
+          "cpu_percent": 100.66737965843232,
+          "memory_current_bytes": 480780288,
+          "memory_working_set_bytes": 392097792
+        }
+      }
+    },
+    {
+      "epoch": 1791139783.096105,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.1004883775101825,
+          "memory_current_bytes": 236834816,
+          "memory_working_set_bytes": 161898496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 97.89252033664009,
+          "memory_current_bytes": 269529088,
+          "memory_working_set_bytes": 267771904
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.72774142374062,
+          "memory_current_bytes": 287514624,
+          "memory_working_set_bytes": 274092032
+        },
+        "spark-driver": {
+          "cpu_percent": 36.28712771702419,
+          "memory_current_bytes": 491347968,
+          "memory_working_set_bytes": 401866752
+        }
+      }
+    },
+    {
+      "epoch": 1791139784.0968788,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08773212744336878,
+          "memory_current_bytes": 236834816,
+          "memory_working_set_bytes": 161898496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 58.735495051810815,
+          "memory_current_bytes": 296321024,
+          "memory_working_set_bytes": 294277120
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.75709601749455,
+          "memory_current_bytes": 321552384,
+          "memory_working_set_bytes": 307879936
+        },
+        "spark-driver": {
+          "cpu_percent": 20.522047979956838,
+          "memory_current_bytes": 494231552,
+          "memory_working_set_bytes": 404725760
+        }
+      }
+    },
+    {
+      "epoch": 1791139785.098336,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06690251407207397,
+          "memory_current_bytes": 236834816,
+          "memory_working_set_bytes": 161898496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 3.144451849977516,
+          "memory_current_bytes": 294928384,
+          "memory_working_set_bytes": 292884480
+        },
+        "spark-worker-2": {
+          "cpu_percent": 59.861181593331644,
+          "memory_current_bytes": 347168768,
+          "memory_working_set_bytes": 328507392
+        },
+        "spark-driver": {
+          "cpu_percent": 41.20065930001436,
+          "memory_current_bytes": 507658240,
+          "memory_working_set_bytes": 417570816
+        }
+      }
+    },
+    {
+      "epoch": 1791139786.1022005,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07899477005411426,
+          "memory_current_bytes": 236834816,
+          "memory_working_set_bytes": 161898496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.17384347853869161,
+          "memory_current_bytes": 294871040,
+          "memory_working_set_bytes": 292827136
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.15919922050880098,
+          "memory_current_bytes": 346963968,
+          "memory_working_set_bytes": 328302592
+        },
+        "spark-driver": {
+          "cpu_percent": 101.81549289326713,
+          "memory_current_bytes": 544657408,
+          "memory_working_set_bytes": 436764672
+        }
+      }
+    },
+    {
+      "epoch": 1791139787.1030335,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07653626694940491,
+          "memory_current_bytes": 236834816,
+          "memory_working_set_bytes": 161898496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.15788665569597538,
+          "memory_current_bytes": 294825984,
+          "memory_working_set_bytes": 292782080
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.14547688887344726,
+          "memory_current_bytes": 346963968,
+          "memory_working_set_bytes": 328302592
+        },
+        "spark-driver": {
+          "cpu_percent": 95.3625199342465,
+          "memory_current_bytes": 606175232,
+          "memory_working_set_bytes": 487694336
+        }
+      }
+    },
+    {
+      "epoch": 1791139788.1039565,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.45967548555195314,
+          "memory_current_bytes": 237621248,
+          "memory_working_set_bytes": 162684928
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.16434739506203996,
+          "memory_current_bytes": 294604800,
+          "memory_working_set_bytes": 292560896
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.28986946652342604,
+          "memory_current_bytes": 346271744,
+          "memory_working_set_bytes": 327606272
+        },
+        "spark-driver": {
+          "cpu_percent": 99.54412934127284,
+          "memory_current_bytes": 619859968,
+          "memory_working_set_bytes": 500498432
+        }
+      }
+    },
+    {
+      "epoch": 1791139789.1048167,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0854264968210339,
+          "memory_current_bytes": 237617152,
+          "memory_working_set_bytes": 162680832
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.21070984995298608,
+          "memory_current_bytes": 294318080,
+          "memory_working_set_bytes": 292274176
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.20241660873080847,
+          "memory_current_bytes": 346013696,
+          "memory_working_set_bytes": 327348224
+        },
+        "spark-driver": {
+          "cpu_percent": 97.81058740183634,
+          "memory_current_bytes": 636223488,
+          "memory_working_set_bytes": 515514368
+        }
+      }
+    },
+    {
+      "epoch": 1791139790.105832,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08760858701011588,
+          "memory_current_bytes": 237101056,
+          "memory_working_set_bytes": 162164736
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.14763623937336717,
+          "memory_current_bytes": 294318080,
+          "memory_working_set_bytes": 292274176
+        },
+        "spark-worker-2": {
+          "cpu_percent": 0.1605236500023232,
+          "memory_current_bytes": 346013696,
+          "memory_working_set_bytes": 327348224
+        },
+        "spark-driver": {
+          "cpu_percent": 101.86383391663561,
+          "memory_current_bytes": 650596352,
+          "memory_working_set_bytes": 529330176
+        }
+      }
+    },
+    {
+      "epoch": 1791139791.108695,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08136892843566465,
+          "memory_current_bytes": 236847104,
+          "memory_working_set_bytes": 161910784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 34.37114758823969,
+          "memory_current_bytes": 301961216,
+          "memory_working_set_bytes": 299802624
+        },
+        "spark-worker-2": {
+          "cpu_percent": 32.58350243709561,
+          "memory_current_bytes": 354127872,
+          "memory_working_set_bytes": 335454208
+        },
+        "spark-driver": {
+          "cpu_percent": 86.2607969568771,
+          "memory_current_bytes": 660910080,
+          "memory_working_set_bytes": 539267072
+        }
+      }
+    },
+    {
+      "epoch": 1791139792.1096437,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.09151364845341825,
+          "memory_current_bytes": 236847104,
+          "memory_working_set_bytes": 161910784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 98.39387096500185,
+          "memory_current_bytes": 357318656,
+          "memory_working_set_bytes": 354897920
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.95593839111946,
+          "memory_current_bytes": 424693760,
+          "memory_working_set_bytes": 405741568
+        },
+        "spark-driver": {
+          "cpu_percent": 0.36788514475162887,
+          "memory_current_bytes": 660414464,
+          "memory_working_set_bytes": 538771456
+        }
+      }
+    },
+    {
+      "epoch": 1791139793.1119998,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.13448285459777556,
+          "memory_current_bytes": 236847104,
+          "memory_working_set_bytes": 161910784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 103.64545173571479,
+          "memory_current_bytes": 394735616,
+          "memory_working_set_bytes": 392314880
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.67349540376892,
+          "memory_current_bytes": 440418304,
+          "memory_working_set_bytes": 421285888
+        },
+        "spark-driver": {
+          "cpu_percent": 9.548639609013193,
+          "memory_current_bytes": 661176320,
+          "memory_working_set_bytes": 539533312
+        }
+      }
+    },
+    {
+      "epoch": 1791139794.1147194,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.10331925915257414,
+          "memory_current_bytes": 236847104,
+          "memory_working_set_bytes": 161910784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 95.6986347553429,
+          "memory_current_bytes": 413147136,
+          "memory_working_set_bytes": 410525696
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.32970943987796,
+          "memory_current_bytes": 479899648,
+          "memory_working_set_bytes": 460763136
+        },
+        "spark-driver": {
+          "cpu_percent": 5.598860985639837,
+          "memory_current_bytes": 661733376,
+          "memory_working_set_bytes": 540090368
+        }
+      }
+    },
+    {
+      "epoch": 1791139795.1160932,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07629496342688141,
+          "memory_current_bytes": 230621184,
+          "memory_working_set_bytes": 167534592
+        },
+        "spark-worker-1": {
+          "cpu_percent": 99.86552416761432,
+          "memory_current_bytes": 450252800,
+          "memory_working_set_bytes": 450236416
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.08975660558018,
+          "memory_current_bytes": 601690112,
+          "memory_working_set_bytes": 559202304
+        },
+        "spark-driver": {
+          "cpu_percent": 1.3469786779985644,
+          "memory_current_bytes": 636497920,
+          "memory_working_set_bytes": 539652096
+        }
+      }
+    },
+    {
+      "epoch": 1791139796.1213362,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.35682991046151796,
+          "memory_current_bytes": 230883328,
+          "memory_working_set_bytes": 167796736
+        },
+        "spark-worker-1": {
+          "cpu_percent": 20.40808035155855,
+          "memory_current_bytes": 460365824,
+          "memory_working_set_bytes": 460173312
+        },
+        "spark-worker-2": {
+          "cpu_percent": 97.93125704644618,
+          "memory_current_bytes": 642375680,
+          "memory_working_set_bytes": 599887872
+        },
+        "spark-driver": {
+          "cpu_percent": 1.842106676848529,
+          "memory_current_bytes": 636657664,
+          "memory_working_set_bytes": 539811840
+        }
+      }
+    },
+    {
+      "epoch": 1791139797.1238546,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06723072647684081,
+          "memory_current_bytes": 230883328,
+          "memory_working_set_bytes": 167796736
+        },
+        "spark-worker-1": {
+          "cpu_percent": 4.839378767215295,
+          "memory_current_bytes": 462237696,
+          "memory_working_set_bytes": 461578240
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.34147320620767,
+          "memory_current_bytes": 642453504,
+          "memory_working_set_bytes": 599965696
+        },
+        "spark-driver": {
+          "cpu_percent": 2.3215419935701447,
+          "memory_current_bytes": 637177856,
+          "memory_working_set_bytes": 540332032
+        }
+      }
+    },
+    {
+      "epoch": 1791139798.1250925,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.05543140540961062,
+          "memory_current_bytes": 230002688,
+          "memory_working_set_bytes": 170962944
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.13833083162938745,
+          "memory_current_bytes": 457752576,
+          "memory_working_set_bytes": 457752576
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.58587192279911,
+          "memory_current_bytes": 666472448,
+          "memory_working_set_bytes": 633040896
+        },
+        "spark-driver": {
+          "cpu_percent": 5.113527725699506,
+          "memory_current_bytes": 628596736,
+          "memory_working_set_bytes": 540901376
+        }
+      }
+    },
+    {
+      "epoch": 1791139799.1293218,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.055066969854736816,
+          "memory_current_bytes": 226603008,
+          "memory_working_set_bytes": 170987520
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.11808546608058522,
+          "memory_current_bytes": 456568832,
+          "memory_working_set_bytes": 456568832
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.31015021615505,
+          "memory_current_bytes": 696258560,
+          "memory_working_set_bytes": 673406976
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2854838482273735,
+          "memory_current_bytes": 619585536,
+          "memory_working_set_bytes": 540565504
+        }
+      }
+    },
+    {
+      "epoch": 1791139800.1302445,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.05175240889878699,
+          "memory_current_bytes": 226603008,
+          "memory_working_set_bytes": 170987520
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1582629166180816,
+          "memory_current_bytes": 451743744,
+          "memory_working_set_bytes": 451743744
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.739087749993,
+          "memory_current_bytes": 742117376,
+          "memory_working_set_bytes": 719269888
+        },
+        "spark-driver": {
+          "cpu_percent": 0.3608896468131003,
+          "memory_current_bytes": 619548672,
+          "memory_working_set_bytes": 540528640
+        }
+      }
+    },
+    {
+      "epoch": 1791139801.1341076,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.05229662449375565,
+          "memory_current_bytes": 224329728,
+          "memory_working_set_bytes": 172630016
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12946379217358456,
+          "memory_current_bytes": 448524288,
+          "memory_working_set_bytes": 448524288
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.08687609599959,
+          "memory_current_bytes": 748331008,
+          "memory_working_set_bytes": 738328576
+        },
+        "spark-driver": {
+          "cpu_percent": 0.19846914010467154,
+          "memory_current_bytes": 610844672,
+          "memory_working_set_bytes": 540528640
+        }
+      }
+    },
+    {
+      "epoch": 1791139802.1392965,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.051732825357855866,
+          "memory_current_bytes": 221175808,
+          "memory_working_set_bytes": 172630016
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12747213485255945,
+          "memory_current_bytes": 446210048,
+          "memory_working_set_bytes": 446210048
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.95922454230899,
+          "memory_current_bytes": 799973376,
+          "memory_working_set_bytes": 798253056
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2207224585610007,
+          "memory_current_bytes": 602021888,
+          "memory_working_set_bytes": 540942336
+        }
+      }
+    },
+    {
+      "epoch": 1791139803.1413445,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.3171498004109398,
+          "memory_current_bytes": 221700096,
+          "memory_working_set_bytes": 173154304
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12105050872792912,
+          "memory_current_bytes": 446210048,
+          "memory_working_set_bytes": 446210048
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.841126063951,
+          "memory_current_bytes": 818585600,
+          "memory_working_set_bytes": 816865280
+        },
+        "spark-driver": {
+          "cpu_percent": 0.17603307226346362,
+          "memory_current_bytes": 601997312,
+          "memory_working_set_bytes": 540917760
+        }
+      }
+    },
+    {
+      "epoch": 1791139804.1448195,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.10174663728637881,
+          "memory_current_bytes": 214855680,
+          "memory_working_set_bytes": 175751168
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.17978091542864758,
+          "memory_current_bytes": 433729536,
+          "memory_working_set_bytes": 433729536
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.64996006629157,
+          "memory_current_bytes": 909025280,
+          "memory_working_set_bytes": 907309056
+        },
+        "spark-driver": {
+          "cpu_percent": 0.22163743578987224,
+          "memory_current_bytes": 565178368,
+          "memory_working_set_bytes": 541220864
+        }
+      }
+    },
+    {
+      "epoch": 1791139805.1460052,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.048242759531629174,
+          "memory_current_bytes": 214855680,
+          "memory_working_set_bytes": 175751168
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12125271723443838,
+          "memory_current_bytes": 433729536,
+          "memory_working_set_bytes": 433729536
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.94095444068842,
+          "memory_current_bytes": 909078528,
+          "memory_working_set_bytes": 907362304
+        },
+        "spark-driver": {
+          "cpu_percent": 0.19974080135552363,
+          "memory_current_bytes": 565178368,
+          "memory_working_set_bytes": 541220864
+        }
+      }
+    },
+    {
+      "epoch": 1791139806.1504593,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06650384117077157,
+          "memory_current_bytes": 210051072,
+          "memory_working_set_bytes": 176955392
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1504390760074188,
+          "memory_current_bytes": 428638208,
+          "memory_working_set_bytes": 428638208
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.63122980842277,
+          "memory_current_bytes": 964390912,
+          "memory_working_set_bytes": 962674688
+        },
+        "spark-driver": {
+          "cpu_percent": 0.22224514949570803,
+          "memory_current_bytes": 548773888,
+          "memory_working_set_bytes": 542048256
+        }
+      }
+    },
+    {
+      "epoch": 1791139807.152736,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.05297921575876164,
+          "memory_current_bytes": 205115392,
+          "memory_working_set_bytes": 179523584
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.5260582348022108,
+          "memory_current_bytes": 419614720,
+          "memory_working_set_bytes": 419614720
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.08601179354707,
+          "memory_current_bytes": 1049849856,
+          "memory_working_set_bytes": 1048133632
+        },
+        "spark-driver": {
+          "cpu_percent": 0.6392872277824249,
+          "memory_current_bytes": 542584832,
+          "memory_working_set_bytes": 394866688
+        }
+      }
+    },
+    {
+      "epoch": 1791139808.1550202,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07243470031974528,
+          "memory_current_bytes": 205115392,
+          "memory_working_set_bytes": 179523584
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.17361027219573827,
+          "memory_current_bytes": 419614720,
+          "memory_working_set_bytes": 419614720
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.18448129720872,
+          "memory_current_bytes": 1049595904,
+          "memory_working_set_bytes": 1047879680
+        },
+        "spark-driver": {
+          "cpu_percent": 1.3068222304343065,
+          "memory_current_bytes": 543371264,
+          "memory_working_set_bytes": 395653120
+        }
+      }
+    },
+    {
+      "epoch": 1791139809.1577642,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.09035209193010399,
+          "memory_current_bytes": 205115392,
+          "memory_working_set_bytes": 179523584
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1454961438799867,
+          "memory_current_bytes": 419614720,
+          "memory_working_set_bytes": 419614720
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.1386300269304,
+          "memory_current_bytes": 1086033920,
+          "memory_working_set_bytes": 1084317696
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2149078909365967,
+          "memory_current_bytes": 543371264,
+          "memory_working_set_bytes": 395653120
+        }
+      }
+    },
+    {
+      "epoch": 1791139810.16171,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07042213706394605,
+          "memory_current_bytes": 202653696,
+          "memory_working_set_bytes": 179728384
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.13357039778065297,
+          "memory_current_bytes": 418422784,
+          "memory_working_set_bytes": 418422784
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.85604160212024,
+          "memory_current_bytes": 1122435072,
+          "memory_working_set_bytes": 1120714752
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2542951187628282,
+          "memory_current_bytes": 542941184,
+          "memory_working_set_bytes": 395223040
+        }
+      }
+    },
+    {
+      "epoch": 1791139811.1631045,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.36399175794451455,
+          "memory_current_bytes": 203177984,
+          "memory_working_set_bytes": 180252672
+        },
+        "spark-worker-1": {
+          "cpu_percent": 2.004461191295538,
+          "memory_current_bytes": 420626432,
+          "memory_working_set_bytes": 420626432
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.47867589263221,
+          "memory_current_bytes": 1122402304,
+          "memory_working_set_bytes": 1120681984
+        },
+        "spark-driver": {
+          "cpu_percent": 0.26750615042724085,
+          "memory_current_bytes": 542683136,
+          "memory_working_set_bytes": 394964992
+        }
+      }
+    },
+    {
+      "epoch": 1791139812.1648383,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07756556204923883,
+          "memory_current_bytes": 203177984,
+          "memory_working_set_bytes": 180252672
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1383771423668413,
+          "memory_current_bytes": 420626432,
+          "memory_working_set_bytes": 420626432
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.27190515626218,
+          "memory_current_bytes": 1135771648,
+          "memory_working_set_bytes": 1134051328
+        },
+        "spark-driver": {
+          "cpu_percent": 0.19369001365986788,
+          "memory_current_bytes": 542429184,
+          "memory_working_set_bytes": 394711040
+        }
+      }
+    },
+    {
+      "epoch": 1791139813.166997,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08102501562139437,
+          "memory_current_bytes": 191217664,
+          "memory_working_set_bytes": 180580352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1210407698881013,
+          "memory_current_bytes": 408035328,
+          "memory_working_set_bytes": 408035328
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.00248536679484,
+          "memory_current_bytes": 1209958400,
+          "memory_working_set_bytes": 1208238080
+        },
+        "spark-driver": {
+          "cpu_percent": 0.25623565992030495,
+          "memory_current_bytes": 542429184,
+          "memory_working_set_bytes": 394711040
+        }
+      }
+    },
+    {
+      "epoch": 1791139814.1678538,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.045860857345504207,
+          "memory_current_bytes": 191217664,
+          "memory_working_set_bytes": 180580352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12909594750440004,
+          "memory_current_bytes": 407781376,
+          "memory_working_set_bytes": 407781376
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.64967397217191,
+          "memory_current_bytes": 1211482112,
+          "memory_working_set_bytes": 1208922112
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2991792404256162,
+          "memory_current_bytes": 542691328,
+          "memory_working_set_bytes": 394973184
+        }
+      }
+    },
+    {
+      "epoch": 1791139815.170211,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07991159770027044,
+          "memory_current_bytes": 191217664,
+          "memory_working_set_bytes": 180580352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.17118309640744378,
+          "memory_current_bytes": 407781376,
+          "memory_working_set_bytes": 407781376
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.98946071367222,
+          "memory_current_bytes": 1217724416,
+          "memory_working_set_bytes": 1212719104
+        },
+        "spark-driver": {
+          "cpu_percent": 0.25069014183014354,
+          "memory_current_bytes": 542691328,
+          "memory_working_set_bytes": 394973184
+        }
+      }
+    },
+    {
+      "epoch": 1791139816.1748135,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08162422516694924,
+          "memory_current_bytes": 190693376,
+          "memory_working_set_bytes": 180056064
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.18077039782491022,
+          "memory_current_bytes": 407429120,
+          "memory_working_set_bytes": 407416832
+        },
+        "spark-worker-2": {
+          "cpu_percent": 97.71517982924692,
+          "memory_current_bytes": 1235632128,
+          "memory_working_set_bytes": 1212977152
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2191908252749481,
+          "memory_current_bytes": 542433280,
+          "memory_working_set_bytes": 394715136
+        }
+      }
+    },
+    {
+      "epoch": 1791139817.180036,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08028053021564863,
+          "memory_current_bytes": 185782272,
+          "memory_working_set_bytes": 183357440
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.6401452408303394,
+          "memory_current_bytes": 405794816,
+          "memory_working_set_bytes": 405794816
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.19189633189987,
+          "memory_current_bytes": 1311297536,
+          "memory_working_set_bytes": 1215062016
+        },
+        "spark-driver": {
+          "cpu_percent": 0.7646162306854958,
+          "memory_current_bytes": 543219712,
+          "memory_working_set_bytes": 395501568
+        }
+      }
+    },
+    {
+      "epoch": 1791139818.1839254,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.20829075376245193,
+          "memory_current_bytes": 183652352,
+          "memory_working_set_bytes": 183652352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.14857993797527233,
+          "memory_current_bytes": 399245312,
+          "memory_working_set_bytes": 399245312
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.84249220935476,
+          "memory_current_bytes": 1349816320,
+          "memory_working_set_bytes": 1250111488
+        },
+        "spark-driver": {
+          "cpu_percent": 2.1086353086285685,
+          "memory_current_bytes": 543481856,
+          "memory_working_set_bytes": 395763712
+        }
+      }
+    },
+    {
+      "epoch": 1791139819.189305,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0668401930912548,
+          "memory_current_bytes": 183611392,
+          "memory_working_set_bytes": 183611392
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.10592106975113379,
+          "memory_current_bytes": 399151104,
+          "memory_working_set_bytes": 399151104
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.96898992211169,
+          "memory_current_bytes": 1349816320,
+          "memory_working_set_bytes": 1250111488
+        },
+        "spark-driver": {
+          "cpu_percent": 0.1987186375591674,
+          "memory_current_bytes": 543481856,
+          "memory_working_set_bytes": 395763712
+        }
+      }
+    },
+    {
+      "epoch": 1791139820.1947901,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07021499880372845,
+          "memory_current_bytes": 183611392,
+          "memory_working_set_bytes": 183611392
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12671534533135642,
+          "memory_current_bytes": 399151104,
+          "memory_working_set_bytes": 399151104
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.72586177449159,
+          "memory_current_bytes": 1349816320,
+          "memory_working_set_bytes": 1250111488
+        },
+        "spark-driver": {
+          "cpu_percent": 0.24508602031926136,
+          "memory_current_bytes": 543481856,
+          "memory_working_set_bytes": 395763712
+        }
+      }
+    },
+    {
+      "epoch": 1791139821.196837,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07155358283713345,
+          "memory_current_bytes": 183607296,
+          "memory_working_set_bytes": 183607296
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12035485112945919,
+          "memory_current_bytes": 399151104,
+          "memory_working_set_bytes": 399151104
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.91094357647196,
+          "memory_current_bytes": 1371312128,
+          "memory_working_set_bytes": 1271607296
+        },
+        "spark-driver": {
+          "cpu_percent": 0.17124493629676582,
+          "memory_current_bytes": 543481856,
+          "memory_working_set_bytes": 395763712
+        }
+      }
+    },
+    {
+      "epoch": 1791139822.1996977,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.05235018857539602,
+          "memory_current_bytes": 183607296,
+          "memory_working_set_bytes": 183607296
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1282264857357942,
+          "memory_current_bytes": 398893056,
+          "memory_working_set_bytes": 398893056
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.50324148614304,
+          "memory_current_bytes": 1371312128,
+          "memory_working_set_bytes": 1271607296
+        },
+        "spark-driver": {
+          "cpu_percent": 0.18676087420941664,
+          "memory_current_bytes": 543481856,
+          "memory_working_set_bytes": 395763712
+        }
+      }
+    },
+    {
+      "epoch": 1791139823.2047963,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06705796741726633,
+          "memory_current_bytes": 183607296,
+          "memory_working_set_bytes": 183607296
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.12685006151102352,
+          "memory_current_bytes": 398893056,
+          "memory_working_set_bytes": 398893056
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.13664448524831,
+          "memory_current_bytes": 1371058176,
+          "memory_working_set_bytes": 1271353344
+        },
+        "spark-driver": {
+          "cpu_percent": 0.22922322321495706,
+          "memory_current_bytes": 543211520,
+          "memory_working_set_bytes": 395493376
+        }
+      }
+    },
+    {
+      "epoch": 1791139824.2093046,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.061522918187453465,
+          "memory_current_bytes": 183349248,
+          "memory_working_set_bytes": 183349248
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.16586179608458224,
+          "memory_current_bytes": 398893056,
+          "memory_working_set_bytes": 398893056
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.56942331055214,
+          "memory_current_bytes": 1383395328,
+          "memory_working_set_bytes": 1283690496
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2137499596616354,
+          "memory_current_bytes": 542736384,
+          "memory_working_set_bytes": 395018240
+        }
+      }
+    },
+    {
+      "epoch": 1791139825.2134812,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08614020236696658,
+          "memory_current_bytes": 183349248,
+          "memory_working_set_bytes": 183349248
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.18492872221648826,
+          "memory_current_bytes": 398893056,
+          "memory_working_set_bytes": 398643200
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.09767838892688,
+          "memory_current_bytes": 1383223296,
+          "memory_working_set_bytes": 1283518464
+        },
+        "spark-driver": {
+          "cpu_percent": 0.3214620319472291,
+          "memory_current_bytes": 542998528,
+          "memory_working_set_bytes": 395280384
+        }
+      }
+    },
+    {
+      "epoch": 1791139826.215957,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.3263914982308853,
+          "memory_current_bytes": 184135680,
+          "memory_working_set_bytes": 184135680
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.9515315504305984,
+          "memory_current_bytes": 400465920,
+          "memory_working_set_bytes": 400125952
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.92976575994079,
+          "memory_current_bytes": 1383993344,
+          "memory_working_set_bytes": 1284288512
+        },
+        "spark-driver": {
+          "cpu_percent": 0.29183320562561005,
+          "memory_current_bytes": 542998528,
+          "memory_working_set_bytes": 395280384
+        }
+      }
+    },
+    {
+      "epoch": 1791139827.2168021,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.1441782941998565,
+          "memory_current_bytes": 181514240,
+          "memory_working_set_bytes": 181514240
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.6766340172963663,
+          "memory_current_bytes": 394485760,
+          "memory_working_set_bytes": 394485760
+        },
+        "spark-worker-2": {
+          "cpu_percent": 102.7240691551386,
+          "memory_current_bytes": 1435357184,
+          "memory_working_set_bytes": 1286909952
+        },
+        "spark-driver": {
+          "cpu_percent": 0.741074880268676,
+          "memory_current_bytes": 543784960,
+          "memory_working_set_bytes": 396066816
+        }
+      }
+    },
+    {
+      "epoch": 1791139828.2177193,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.11379546361804059,
+          "memory_current_bytes": 180858880,
+          "memory_working_set_bytes": 180858880
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.15903293447112604,
+          "memory_current_bytes": 393818112,
+          "memory_working_set_bytes": 393818112
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.6378606812895,
+          "memory_current_bytes": 1473507328,
+          "memory_working_set_bytes": 1288011776
+        },
+        "spark-driver": {
+          "cpu_percent": 2.30485738071993,
+          "memory_current_bytes": 543797248,
+          "memory_working_set_bytes": 396079104
+        }
+      }
+    },
+    {
+      "epoch": 1791139829.2193553,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.10233264253578245,
+          "memory_current_bytes": 179015680,
+          "memory_working_set_bytes": 179015680
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.16803394479773726,
+          "memory_current_bytes": 389877760,
+          "memory_working_set_bytes": 389877760
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.96156513406177,
+          "memory_current_bytes": 1518546944,
+          "memory_working_set_bytes": 1289203712
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2146143566500916,
+          "memory_current_bytes": 543539200,
+          "memory_working_set_bytes": 395821056
+        }
+      }
+    },
+    {
+      "epoch": 1791139830.2202203,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08052953593128762,
+          "memory_current_bytes": 178425856,
+          "memory_working_set_bytes": 178425856
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.2036108353533752,
+          "memory_current_bytes": 386879488,
+          "memory_working_set_bytes": 386879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.87128071478138,
+          "memory_current_bytes": 1565331456,
+          "memory_working_set_bytes": 1290625024
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2740502010492948,
+          "memory_current_bytes": 543539200,
+          "memory_working_set_bytes": 395821056
+        }
+      }
+    },
+    {
+      "epoch": 1791139831.2235303,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.15449027093773746,
+          "memory_current_bytes": 178950144,
+          "memory_working_set_bytes": 178950144
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.26416243759394314,
+          "memory_current_bytes": 386879488,
+          "memory_working_set_bytes": 386879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 97.33928967404438,
+          "memory_current_bytes": 1450557440,
+          "memory_working_set_bytes": 1289334784
+        },
+        "spark-driver": {
+          "cpu_percent": 12.453468198939673,
+          "memory_current_bytes": 547713024,
+          "memory_working_set_bytes": 396292096
+        }
+      }
+    },
+    {
+      "epoch": 1791139832.226299,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.17990196964168442,
+          "memory_current_bytes": 179212288,
+          "memory_working_set_bytes": 179212288
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.14878588410001217,
+          "memory_current_bytes": 386879488,
+          "memory_working_set_bytes": 386879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.73382295144336,
+          "memory_current_bytes": 1461989376,
+          "memory_working_set_bytes": 1291509760
+        },
+        "spark-driver": {
+          "cpu_percent": 12.891602057952293,
+          "memory_current_bytes": 548495360,
+          "memory_working_set_bytes": 397074432
+        }
+      }
+    },
+    {
+      "epoch": 1791139833.2292495,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.7634477908449793,
+          "memory_current_bytes": 179499008,
+          "memory_working_set_bytes": 179499008
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.1687073589905441,
+          "memory_current_bytes": 386879488,
+          "memory_working_set_bytes": 386879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.56971401837356,
+          "memory_current_bytes": 1485115392,
+          "memory_working_set_bytes": 1298534400
+        },
+        "spark-driver": {
+          "cpu_percent": 11.272173878654353,
+          "memory_current_bytes": 548745216,
+          "memory_working_set_bytes": 397303808
+        }
+      }
+    },
+    {
+      "epoch": 1791139834.2321556,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07308758547719464,
+          "memory_current_bytes": 179249152,
+          "memory_working_set_bytes": 179249152
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.2083892265976736,
+          "memory_current_bytes": 386879488,
+          "memory_working_set_bytes": 386879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.51475991858374,
+          "memory_current_bytes": 1507266560,
+          "memory_working_set_bytes": 1301467136
+        },
+        "spark-driver": {
+          "cpu_percent": 30.099653399316534,
+          "memory_current_bytes": 554385408,
+          "memory_working_set_bytes": 402944000
+        }
+      }
+    },
+    {
+      "epoch": 1791139835.234663,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.09795439483182584,
+          "memory_current_bytes": 179249152,
+          "memory_working_set_bytes": 179249152
+        },
+        "spark-worker-1": {
+          "cpu_percent": 42.00077869901097,
+          "memory_current_bytes": 394039296,
+          "memory_working_set_bytes": 392224768
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.83894424597082,
+          "memory_current_bytes": 1528655872,
+          "memory_working_set_bytes": 1303007232
+        },
+        "spark-driver": {
+          "cpu_percent": 28.528020071497668,
+          "memory_current_bytes": 550223872,
+          "memory_working_set_bytes": 398782464
+        }
+      }
+    },
+    {
+      "epoch": 1791139836.2376857,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06619985242532865,
+          "memory_current_bytes": 177733632,
+          "memory_working_set_bytes": 177733632
+        },
+        "spark-worker-1": {
+          "cpu_percent": 41.14534524664662,
+          "memory_current_bytes": 397119488,
+          "memory_working_set_bytes": 394797056
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.6411509609919,
+          "memory_current_bytes": 1550733312,
+          "memory_working_set_bytes": 1304129536
+        },
+        "spark-driver": {
+          "cpu_percent": 11.574257053324402,
+          "memory_current_bytes": 550469632,
+          "memory_working_set_bytes": 399028224
+        }
+      }
+    },
+    {
+      "epoch": 1791139837.24036,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.073403781855035,
+          "memory_current_bytes": 175796224,
+          "memory_working_set_bytes": 175796224
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.8957783304672177,
+          "memory_current_bytes": 389570560,
+          "memory_working_set_bytes": 388685824
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.55568904793088,
+          "memory_current_bytes": 1579327488,
+          "memory_working_set_bytes": 1305456640
+        },
+        "spark-driver": {
+          "cpu_percent": 22.52053709994324,
+          "memory_current_bytes": 557228032,
+          "memory_working_set_bytes": 405786624
+        }
+      }
+    },
+    {
+      "epoch": 1791139838.2435014,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.16577912745219436,
+          "memory_current_bytes": 174977024,
+          "memory_working_set_bytes": 174977024
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.18183458372542335,
+          "memory_current_bytes": 389570560,
+          "memory_working_set_bytes": 388685824
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.82125935625581,
+          "memory_current_bytes": 1610993664,
+          "memory_working_set_bytes": 1307234304
+        },
+        "spark-driver": {
+          "cpu_percent": 26.98112778823361,
+          "memory_current_bytes": 558542848,
+          "memory_working_set_bytes": 407101440
+        }
+      }
+    },
+    {
+      "epoch": 1791139839.2446187,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08310708893403498,
+          "memory_current_bytes": 173842432,
+          "memory_working_set_bytes": 173842432
+        },
+        "spark-worker-1": {
+          "cpu_percent": 7.298374168342315,
+          "memory_current_bytes": 394711040,
+          "memory_working_set_bytes": 393003008
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.56767214218442,
+          "memory_current_bytes": 1626312704,
+          "memory_working_set_bytes": 1310642176
+        },
+        "spark-driver": {
+          "cpu_percent": 13.675865166638964,
+          "memory_current_bytes": 559529984,
+          "memory_working_set_bytes": 408080384
+        }
+      }
+    },
+    {
+      "epoch": 1791139840.245511,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08012854136678363,
+          "memory_current_bytes": 173584384,
+          "memory_working_set_bytes": 173584384
+        },
+        "spark-worker-1": {
+          "cpu_percent": 5.644006252504481,
+          "memory_current_bytes": 396132352,
+          "memory_working_set_bytes": 393011200
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.95177954956709,
+          "memory_current_bytes": 1646952448,
+          "memory_working_set_bytes": 1312215040
+        },
+        "spark-driver": {
+          "cpu_percent": 19.151600332222102,
+          "memory_current_bytes": 556154880,
+          "memory_working_set_bytes": 404705280
+        }
+      }
+    },
+    {
+      "epoch": 1791139841.246387,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.5876848155096028,
+          "memory_current_bytes": 169918464,
+          "memory_working_set_bytes": 169918464
+        },
+        "spark-worker-1": {
+          "cpu_percent": 7.956361212780103,
+          "memory_current_bytes": 397238272,
+          "memory_working_set_bytes": 394100736
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.51614608924149,
+          "memory_current_bytes": 1677291520,
+          "memory_working_set_bytes": 1319604224
+        },
+        "spark-driver": {
+          "cpu_percent": 26.31238330020047,
+          "memory_current_bytes": 559489024,
+          "memory_working_set_bytes": 408039424
+        }
+      }
+    },
+    {
+      "epoch": 1791139842.247263,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.10360926760301578,
+          "memory_current_bytes": 169918464,
+          "memory_working_set_bytes": 169918464
+        },
+        "spark-worker-1": {
+          "cpu_percent": 43.912166278903264,
+          "memory_current_bytes": 401936384,
+          "memory_working_set_bytes": 398725120
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.62629391003769,
+          "memory_current_bytes": 1708617728,
+          "memory_working_set_bytes": 1323507712
+        },
+        "spark-driver": {
+          "cpu_percent": 15.527735622648622,
+          "memory_current_bytes": 560009216,
+          "memory_working_set_bytes": 408559616
+        }
+      }
+    },
+    {
+      "epoch": 1791139843.248086,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08113322321947773,
+          "memory_current_bytes": 168050688,
+          "memory_working_set_bytes": 168050688
+        },
+        "spark-worker-1": {
+          "cpu_percent": 45.781132203117494,
+          "memory_current_bytes": 432955392,
+          "memory_working_set_bytes": 426655744
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.67871524258793,
+          "memory_current_bytes": 1733767168,
+          "memory_working_set_bytes": 1324843008
+        },
+        "spark-driver": {
+          "cpu_percent": 16.19409466676826,
+          "memory_current_bytes": 560386048,
+          "memory_working_set_bytes": 408936448
+        }
+      }
+    },
+    {
+      "epoch": 1791139844.250465,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07003329386778256,
+          "memory_current_bytes": 163885056,
+          "memory_working_set_bytes": 163885056
+        },
+        "spark-worker-1": {
+          "cpu_percent": 3.667676702370836,
+          "memory_current_bytes": 432574464,
+          "memory_working_set_bytes": 426266624
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.58694758103344,
+          "memory_current_bytes": 1771347968,
+          "memory_working_set_bytes": 1327091712
+        },
+        "spark-driver": {
+          "cpu_percent": 6.654371689026215,
+          "memory_current_bytes": 560381952,
+          "memory_working_set_bytes": 408932352
+        }
+      }
+    },
+    {
+      "epoch": 1791139845.2528043,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07512436172138953,
+          "memory_current_bytes": 160329728,
+          "memory_working_set_bytes": 160329728
+        },
+        "spark-worker-1": {
+          "cpu_percent": 2.1055349548679057,
+          "memory_current_bytes": 432558080,
+          "memory_working_set_bytes": 426250240
+        },
+        "spark-worker-2": {
+          "cpu_percent": 96.30238259958175,
+          "memory_current_bytes": 1822990336,
+          "memory_working_set_bytes": 1366200320
+        },
+        "spark-driver": {
+          "cpu_percent": 12.266886984848762,
+          "memory_current_bytes": 561508352,
+          "memory_working_set_bytes": 410030080
+        }
+      }
+    },
+    {
+      "epoch": 1791139846.2537658,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08411912568548753,
+          "memory_current_bytes": 155373568,
+          "memory_working_set_bytes": 155373568
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.2493477617990743,
+          "memory_current_bytes": 427749376,
+          "memory_working_set_bytes": 421441536
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.2336471701448,
+          "memory_current_bytes": 1869406208,
+          "memory_working_set_bytes": 1408544768
+        },
+        "spark-driver": {
+          "cpu_percent": 0.23506645935698797,
+          "memory_current_bytes": 561479680,
+          "memory_working_set_bytes": 410001408
+        }
+      }
+    },
+    {
+      "epoch": 1791139847.2546153,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0736375240836157,
+          "memory_current_bytes": 155377664,
+          "memory_working_set_bytes": 155377664
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.0565069336319852,
+          "memory_current_bytes": 428675072,
+          "memory_working_set_bytes": 422367232
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.59952479673944,
+          "memory_current_bytes": 1877221376,
+          "memory_working_set_bytes": 1413570560
+        },
+        "spark-driver": {
+          "cpu_percent": 3.2301408944034486,
+          "memory_current_bytes": 562581504,
+          "memory_working_set_bytes": 411103232
+        }
+      }
+    },
+    {
+      "epoch": 1791139848.2554371,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 1.3355011483194743,
+          "memory_current_bytes": 155103232,
+          "memory_working_set_bytes": 155103232
+        },
+        "spark-worker-1": {
+          "cpu_percent": 38.62309876962689,
+          "memory_current_bytes": 437051392,
+          "memory_working_set_bytes": 430723072
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.99479835402441,
+          "memory_current_bytes": 1879875584,
+          "memory_working_set_bytes": 1416212480
+        },
+        "spark-driver": {
+          "cpu_percent": 1.8944852760691184,
+          "memory_current_bytes": 562552832,
+          "memory_working_set_bytes": 411070464
+        }
+      }
+    },
+    {
+      "epoch": 1791139849.2562597,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.10541318254621249,
+          "memory_current_bytes": 151965696,
+          "memory_working_set_bytes": 151965696
+        },
+        "spark-worker-1": {
+          "cpu_percent": 98.71409256772742,
+          "memory_current_bytes": 526237696,
+          "memory_working_set_bytes": 519487488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.64877609945388,
+          "memory_current_bytes": 1882685440,
+          "memory_working_set_bytes": 1415593984
+        },
+        "spark-driver": {
+          "cpu_percent": 1.094843665232744,
+          "memory_current_bytes": 562315264,
+          "memory_working_set_bytes": 410832896
+        }
+      }
+    },
+    {
+      "epoch": 1791139850.259101,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.1422948674448511,
+          "memory_current_bytes": 148516864,
+          "memory_working_set_bytes": 148516864
+        },
+        "spark-worker-1": {
+          "cpu_percent": 100.0042496483362,
+          "memory_current_bytes": 558972928,
+          "memory_working_set_bytes": 551313408
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.4878754339057,
+          "memory_current_bytes": 1887862784,
+          "memory_working_set_bytes": 1420754944
+        },
+        "spark-driver": {
+          "cpu_percent": 1.0514427636039865,
+          "memory_current_bytes": 562565120,
+          "memory_working_set_bytes": 411082752
+        }
+      }
+    },
+    {
+      "epoch": 1791139851.2603755,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06620663150204503,
+          "memory_current_bytes": 147034112,
+          "memory_working_set_bytes": 147034112
+        },
+        "spark-worker-1": {
+          "cpu_percent": 99.73369299311304,
+          "memory_current_bytes": 565432320,
+          "memory_working_set_bytes": 557441024
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.0164401159935,
+          "memory_current_bytes": 1892143104,
+          "memory_working_set_bytes": 1419816960
+        },
+        "spark-driver": {
+          "cpu_percent": 1.2104783716765328,
+          "memory_current_bytes": 562827264,
+          "memory_working_set_bytes": 411344896
+        }
+      }
+    },
+    {
+      "epoch": 1791139852.2619374,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08717561417232307,
+          "memory_current_bytes": 146788352,
+          "memory_working_set_bytes": 146788352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 27.024156175856703,
+          "memory_current_bytes": 568901632,
+          "memory_working_set_bytes": 558743552
+        },
+        "spark-worker-2": {
+          "cpu_percent": 103.2471485968589,
+          "memory_current_bytes": 1895616512,
+          "memory_working_set_bytes": 1422524416
+        },
+        "spark-driver": {
+          "cpu_percent": 4.8554620192711075,
+          "memory_current_bytes": 563122176,
+          "memory_working_set_bytes": 411639808
+        }
+      }
+    },
+    {
+      "epoch": 1791139853.263359,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0728968836403882,
+          "memory_current_bytes": 146788352,
+          "memory_working_set_bytes": 146788352
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.44227395705511535,
+          "memory_current_bytes": 569159680,
+          "memory_working_set_bytes": 559005696
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.0974109401469,
+          "memory_current_bytes": 1900355584,
+          "memory_working_set_bytes": 1422946304
+        },
+        "spark-driver": {
+          "cpu_percent": 1.1472264246511004,
+          "memory_current_bytes": 562397184,
+          "memory_working_set_bytes": 410914816
+        }
+      }
+    },
+    {
+      "epoch": 1791139854.2641442,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.09912230377519482,
+          "memory_current_bytes": 147050496,
+          "memory_working_set_bytes": 147050496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.9981009106990074,
+          "memory_current_bytes": 569184256,
+          "memory_working_set_bytes": 559026176
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.18504273409931,
+          "memory_current_bytes": 1903013888,
+          "memory_working_set_bytes": 1422925824
+        },
+        "spark-driver": {
+          "cpu_percent": 2.4153281260424504,
+          "memory_current_bytes": 562761728,
+          "memory_working_set_bytes": 411279360
+        }
+      }
+    },
+    {
+      "epoch": 1791139855.2654989,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07379985293533428,
+          "memory_current_bytes": 147050496,
+          "memory_working_set_bytes": 147050496
+        },
+        "spark-worker-1": {
+          "cpu_percent": 42.91400218255006,
+          "memory_current_bytes": 575954944,
+          "memory_working_set_bytes": 565784576
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.06567656860632,
+          "memory_current_bytes": 1908113408,
+          "memory_working_set_bytes": 1425293312
+        },
+        "spark-driver": {
+          "cpu_percent": 8.503805317034853,
+          "memory_current_bytes": 563011584,
+          "memory_working_set_bytes": 411529216
+        }
+      }
+    },
+    {
+      "epoch": 1791139856.2662997,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.480615783246664,
+          "memory_current_bytes": 147578880,
+          "memory_working_set_bytes": 147578880
+        },
+        "spark-worker-1": {
+          "cpu_percent": 98.95833516489864,
+          "memory_current_bytes": 599252992,
+          "memory_working_set_bytes": 589082624
+        },
+        "spark-worker-2": {
+          "cpu_percent": 97.01374728702753,
+          "memory_current_bytes": 1909989376,
+          "memory_working_set_bytes": 1424637952
+        },
+        "spark-driver": {
+          "cpu_percent": 7.158313854039829,
+          "memory_current_bytes": 563040256,
+          "memory_working_set_bytes": 411557888
+        }
+      }
+    },
+    {
+      "epoch": 1791139857.2672095,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07533147284244185,
+          "memory_current_bytes": 147288064,
+          "memory_working_set_bytes": 147288064
+        },
+        "spark-worker-1": {
+          "cpu_percent": 46.20037548452544,
+          "memory_current_bytes": 602836992,
+          "memory_working_set_bytes": 590163968
+        },
+        "spark-worker-2": {
+          "cpu_percent": 103.34927378781244,
+          "memory_current_bytes": 1916522496,
+          "memory_working_set_bytes": 1428860928
+        },
+        "spark-driver": {
+          "cpu_percent": 3.2011383835940608,
+          "memory_current_bytes": 562888704,
+          "memory_working_set_bytes": 411406336
+        }
+      }
+    },
+    {
+      "epoch": 1791139858.2702472,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06789376921346045,
+          "memory_current_bytes": 147288064,
+          "memory_working_set_bytes": 147288064
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.8914329733904056,
+          "memory_current_bytes": 602972160,
+          "memory_working_set_bytes": 590299136
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.56296177018575,
+          "memory_current_bytes": 1919344640,
+          "memory_working_set_bytes": 1426460672
+        },
+        "spark-driver": {
+          "cpu_percent": 2.2360352287091048,
+          "memory_current_bytes": 562917376,
+          "memory_working_set_bytes": 411435008
+        }
+      }
+    },
+    {
+      "epoch": 1791139859.271134,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06933851635879283,
+          "memory_current_bytes": 147288064,
+          "memory_working_set_bytes": 147288064
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.4996474689402288,
+          "memory_current_bytes": 603213824,
+          "memory_working_set_bytes": 590540800
+        },
+        "spark-worker-2": {
+          "cpu_percent": 103.0783506766036,
+          "memory_current_bytes": 1924096000,
+          "memory_working_set_bytes": 1428701184
+        },
+        "spark-driver": {
+          "cpu_percent": 4.100827801708042,
+          "memory_current_bytes": 563429376,
+          "memory_working_set_bytes": 411947008
+        }
+      }
+    },
+    {
+      "epoch": 1791139860.2726064,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06700125903853608,
+          "memory_current_bytes": 141430784,
+          "memory_working_set_bytes": 141430784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 39.44400141089922,
+          "memory_current_bytes": 607289344,
+          "memory_working_set_bytes": 594489344
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.70919293744458,
+          "memory_current_bytes": 1926406144,
+          "memory_working_set_bytes": 1426538496
+        },
+        "spark-driver": {
+          "cpu_percent": 4.7824816651157,
+          "memory_current_bytes": 563412992,
+          "memory_working_set_bytes": 411930624
+        }
+      }
+    },
+    {
+      "epoch": 1791139861.2736914,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0860068037155299,
+          "memory_current_bytes": 141430784,
+          "memory_working_set_bytes": 141430784
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.6777412578630125,
+          "memory_current_bytes": 606793728,
+          "memory_working_set_bytes": 593952768
+        },
+        "spark-worker-2": {
+          "cpu_percent": 97.91679436441292,
+          "memory_current_bytes": 1904164864,
+          "memory_working_set_bytes": 1402949632
+        },
+        "spark-driver": {
+          "cpu_percent": 1.251256600467206,
+          "memory_current_bytes": 563412992,
+          "memory_working_set_bytes": 411930624
+        }
+      }
+    },
+    {
+      "epoch": 1791139862.2744584,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07474266863602856,
+          "memory_current_bytes": 141189120,
+          "memory_working_set_bytes": 141189120
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.0654798373059977,
+          "memory_current_bytes": 579256320,
+          "memory_working_set_bytes": 566415360
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.97656858354809,
+          "memory_current_bytes": 1908486144,
+          "memory_working_set_bytes": 1401085952
+        },
+        "spark-driver": {
+          "cpu_percent": 2.0586000210670616,
+          "memory_current_bytes": 563662848,
+          "memory_working_set_bytes": 412180480
+        }
+      }
+    },
+    {
+      "epoch": 1791139863.2758138,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.34103755001280406,
+          "memory_current_bytes": 141713408,
+          "memory_working_set_bytes": 141713408
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.7395083126967306,
+          "memory_current_bytes": 579530752,
+          "memory_working_set_bytes": 566689792
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.30400371354204,
+          "memory_current_bytes": 1912942592,
+          "memory_working_set_bytes": 1401360384
+        },
+        "spark-driver": {
+          "cpu_percent": 2.1529300344644677,
+          "memory_current_bytes": 563441664,
+          "memory_working_set_bytes": 411959296
+        }
+      }
+    },
+    {
+      "epoch": 1791139864.2776048,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07117250861416938,
+          "memory_current_bytes": 141713408,
+          "memory_working_set_bytes": 141713408
+        },
+        "spark-worker-1": {
+          "cpu_percent": 46.94954477738301,
+          "memory_current_bytes": 590094336,
+          "memory_working_set_bytes": 577241088
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.02900650547228,
+          "memory_current_bytes": 1916633088,
+          "memory_working_set_bytes": 1402748928
+        },
+        "spark-driver": {
+          "cpu_percent": 1.4531951995717634,
+          "memory_current_bytes": 562905088,
+          "memory_working_set_bytes": 411422720
+        }
+      }
+    },
+    {
+      "epoch": 1791139865.2785134,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07722993568939265,
+          "memory_current_bytes": 141475840,
+          "memory_working_set_bytes": 141475840
+        },
+        "spark-worker-1": {
+          "cpu_percent": 58.84654642252243,
+          "memory_current_bytes": 593838080,
+          "memory_working_set_bytes": 578527232
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.74603527166026,
+          "memory_current_bytes": 1920761856,
+          "memory_working_set_bytes": 1400872960
+        },
+        "spark-driver": {
+          "cpu_percent": 2.395512314734836,
+          "memory_current_bytes": 562905088,
+          "memory_working_set_bytes": 411422720
+        }
+      }
+    },
+    {
+      "epoch": 1791139866.2792466,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07384578729681185,
+          "memory_current_bytes": 141475840,
+          "memory_working_set_bytes": 141475840
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.5477808644902955,
+          "memory_current_bytes": 594268160,
+          "memory_working_set_bytes": 578879488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.07628959057976,
+          "memory_current_bytes": 1922764800,
+          "memory_working_set_bytes": 1402281984
+        },
+        "spark-driver": {
+          "cpu_percent": 1.5075953477857535,
+          "memory_current_bytes": 563011584,
+          "memory_working_set_bytes": 411529216
+        }
+      }
+    },
+    {
+      "epoch": 1791139867.2801692,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08652016274115974,
+          "memory_current_bytes": 141475840,
+          "memory_working_set_bytes": 141475840
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.2609010927192836,
+          "memory_current_bytes": 594309120,
+          "memory_working_set_bytes": 578920448
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.73792424267839,
+          "memory_current_bytes": 1930133504,
+          "memory_working_set_bytes": 1404649472
+        },
+        "spark-driver": {
+          "cpu_percent": 2.753019927567302,
+          "memory_current_bytes": 563159040,
+          "memory_working_set_bytes": 411676672
+        }
+      }
+    },
+    {
+      "epoch": 1791139868.2809432,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07833946897243688,
+          "memory_current_bytes": 141221888,
+          "memory_working_set_bytes": 141221888
+        },
+        "spark-worker-1": {
+          "cpu_percent": 31.01645602281859,
+          "memory_current_bytes": 599461888,
+          "memory_working_set_bytes": 583999488
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.26878268129016,
+          "memory_current_bytes": 1933119488,
+          "memory_working_set_bytes": 1402138624
+        },
+        "spark-driver": {
+          "cpu_percent": 3.687605838367183,
+          "memory_current_bytes": 563204096,
+          "memory_working_set_bytes": 411721728
+        }
+      }
+    },
+    {
+      "epoch": 1791139869.2818935,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07532836837135051,
+          "memory_current_bytes": 141221888,
+          "memory_working_set_bytes": 141221888
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.501711841601737,
+          "memory_current_bytes": 599392256,
+          "memory_working_set_bytes": 583929856
+        },
+        "spark-worker-2": {
+          "cpu_percent": 95.0623925074585,
+          "memory_current_bytes": 1936543744,
+          "memory_working_set_bytes": 1402150912
+        },
+        "spark-driver": {
+          "cpu_percent": 3.1102095562256373,
+          "memory_current_bytes": 562925568,
+          "memory_working_set_bytes": 411443200
+        }
+      }
+    },
+    {
+      "epoch": 1791139870.2836304,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.35378542730552465,
+          "memory_current_bytes": 141484032,
+          "memory_working_set_bytes": 141484032
+        },
+        "spark-worker-1": {
+          "cpu_percent": 1.068892152567776,
+          "memory_current_bytes": 599515136,
+          "memory_working_set_bytes": 584052736
+        },
+        "spark-worker-2": {
+          "cpu_percent": 106.1275871113737,
+          "memory_current_bytes": 1940701184,
+          "memory_working_set_bytes": 1403998208
+        },
+        "spark-driver": {
+          "cpu_percent": 1.5478173973427807,
+          "memory_current_bytes": 563175424,
+          "memory_working_set_bytes": 411693056
+        }
+      }
+    },
+    {
+      "epoch": 1791139871.2843287,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08574014549037441,
+          "memory_current_bytes": 139223040,
+          "memory_working_set_bytes": 139223040
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.4655470334123535,
+          "memory_current_bytes": 599515136,
+          "memory_working_set_bytes": 584052736
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.76711919099479,
+          "memory_current_bytes": 1945985024,
+          "memory_working_set_bytes": 1404465152
+        },
+        "spark-driver": {
+          "cpu_percent": 1.6452748033404365,
+          "memory_current_bytes": 563159040,
+          "memory_working_set_bytes": 411676672
+        }
+      }
+    },
+    {
+      "epoch": 1791139872.2851133,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.07544078773272382,
+          "memory_current_bytes": 132820992,
+          "memory_working_set_bytes": 132820992
+        },
+        "spark-worker-1": {
+          "cpu_percent": 45.72238930560479,
+          "memory_current_bytes": 620933120,
+          "memory_working_set_bytes": 605466624
+        },
+        "spark-worker-2": {
+          "cpu_percent": 101.59625146861576,
+          "memory_current_bytes": 1951784960,
+          "memory_working_set_bytes": 1405800448
+        },
+        "spark-driver": {
+          "cpu_percent": 2.7095156290499753,
+          "memory_current_bytes": 563433472,
+          "memory_working_set_bytes": 411951104
+        }
+      }
+    },
+    {
+      "epoch": 1791139873.287451,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.0782171666689945,
+          "memory_current_bytes": 132820992,
+          "memory_working_set_bytes": 132820992
+        },
+        "spark-worker-1": {
+          "cpu_percent": 55.781737189514594,
+          "memory_current_bytes": 644038656,
+          "memory_working_set_bytes": 625483776
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.75207161623077,
+          "memory_current_bytes": 1955999744,
+          "memory_working_set_bytes": 1405128704
+        },
+        "spark-driver": {
+          "cpu_percent": 1.921613663933831,
+          "memory_current_bytes": 563433472,
+          "memory_working_set_bytes": 411951104
+        }
+      }
+    },
+    {
+      "epoch": 1791139874.288299,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.06334616045121788,
+          "memory_current_bytes": 128888832,
+          "memory_working_set_bytes": 128888832
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.5271458110815647,
+          "memory_current_bytes": 643690496,
+          "memory_working_set_bytes": 625135616
+        },
+        "spark-worker-2": {
+          "cpu_percent": 99.77085724634438,
+          "memory_current_bytes": 1959710720,
+          "memory_working_set_bytes": 1403858944
+        },
+        "spark-driver": {
+          "cpu_percent": 3.1790730714193107,
+          "memory_current_bytes": 563470336,
+          "memory_working_set_bytes": 411987968
+        }
+      }
+    },
+    {
+      "epoch": 1791139875.2926252,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08104955453200861,
+          "memory_current_bytes": 128643072,
+          "memory_working_set_bytes": 128643072
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.36887638339546164,
+          "memory_current_bytes": 644177920,
+          "memory_working_set_bytes": 625618944
+        },
+        "spark-worker-2": {
+          "cpu_percent": 98.85631744706082,
+          "memory_current_bytes": 1960558592,
+          "memory_working_set_bytes": 1404768256
+        },
+        "spark-driver": {
+          "cpu_percent": 0.2163074951583374,
+          "memory_current_bytes": 563470336,
+          "memory_working_set_bytes": 411987968
+        }
+      }
+    },
+    {
+      "epoch": 1791139876.293336,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 0.08473975986055128,
+          "memory_current_bytes": 128643072,
+          "memory_working_set_bytes": 128643072
+        },
+        "spark-worker-1": {
+          "cpu_percent": 0.6852584690127593,
+          "memory_current_bytes": 644186112,
+          "memory_working_set_bytes": 625627136
+        },
+        "spark-worker-2": {
+          "cpu_percent": 100.74389102960232,
+          "memory_current_bytes": 1966837760,
+          "memory_working_set_bytes": 1405091840
+        },
+        "spark-driver": {
+          "cpu_percent": 2.462055365266424,
+          "memory_current_bytes": 563724288,
+          "memory_working_set_bytes": 412241920
+        }
+      }
+    },
+    {
+      "epoch": 1791139877.2941947,
+      "containers": {
+        "spark-master": {
+          "cpu_percent": 4.217174069518135,
+          "memory_current_bytes": 112488448,
+          "memory_working_set_bytes": 112488448
+        },
+        "spark-worker-1": {
+          "cpu_percent": 30.891052313574583,
+          "memory_current_bytes": 598925312,
+          "memory_working_set_bytes": 585494528
+        },
+        "spark-worker-2": {
+          "cpu_percent": 42.42474151587454,
+          "memory_current_bytes": 1439203328,
+          "memory_working_set_bytes": 1311838208
+        },
+        "spark-driver": {
+          "cpu_percent": 71.30824742779757,
+          "memory_current_bytes": 635543552,
+          "memory_working_set_bytes": 472375296
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "command": [
+    "docker",
+    "exec",
+    "spark-driver",
+    "spark-submit",
+    "--master",
+    "spark://spark-master:7077",
+    "--deploy-mode",
+    "client",
+    "--driver-memory",
+    "768m",
+    "--executor-memory",
+    "1g",
+    "--executor-cores",
+    "1",
+    "--total-executor-cores",
+    "2",
+    "--conf",
+    "spark.driver.host=spark-driver",
+    "--conf",
+    "spark.driver.bindAddress=0.0.0.0",
+    "--conf",
+    "spark.driver.port=7079",
+    "--conf",
+    "spark.blockManager.port=7080",
+    "spark_clean.py",
+    "--months",
+    "1",
+    "--partitions",
+    "64",
+    "--output",
+    "/project/outputs/spark_check",
+    "--metrics",
+    "/project/artifacts/spark_check.json"
+  ],
+  "command_exit_code": 0,
+  "wrapper_seconds": 103.6951917589995
+}

@@ -1,0 +1,145 @@
+{
+  "framework": "ray",
+  "valid_distributed_run": true,
+  "e2e_seconds": 47.598256686999775,
+  "pipeline_started_epoch": 1791176714.4640267,
+  "pipeline_finished_epoch": 1791176762.0622857,
+  "input": [
+    {
+      "file": "yellow_tripdata_2023-01.parquet",
+      "bytes": 47673370,
+      "rows": 3066766
+    }
+  ],
+  "input_bytes": 47673370,
+  "input_rows": 3066766,
+  "output": {
+    "rows": 2884428,
+    "files": 46,
+    "bytes": 137348588
+  },
+  "output_path": "/project/outputs/ray_cpu2_check",
+  "months": 1,
+  "partitions": 64,
+  "rules": {
+    "columns": [
+      "VendorID",
+      "tpep_pickup_datetime",
+      "tpep_dropoff_datetime",
+      "passenger_count",
+      "trip_distance",
+      "RatecodeID",
+      "store_and_fwd_flag",
+      "PULocationID",
+      "DOLocationID",
+      "payment_type",
+      "fare_amount",
+      "extra",
+      "mta_tax",
+      "tip_amount",
+      "tolls_amount",
+      "improvement_surcharge",
+      "total_amount",
+      "congestion_surcharge",
+      "airport_fee"
+    ],
+    "nulls": "Drop rows missing ANY of the 19 normalized source columns.",
+    "numeric": "Finite doubles; integral int64 values; normalize signed zero.",
+    "timestamps": "Naive local wall-clock values at microsecond precision; no UTC conversion.",
+    "pickup_window": "2023-01-01 inclusive to first day after selected final month exclusive.",
+    "filters": "1<=passenger_count<=8; 0<trip_distance<=1000; 0<duration<=24h; fare_amount,total_amount>=0; VendorID,RatecodeID>0; flag in Y,N.",
+    "duplicates": "Global DISTINCT on all 19 normalized source columns, across ALL selected files.",
+    "joins": "Two INNER equijoins to unique LocationID lookup: pickup and dropoff; blank labels become Unknown.",
+    "features": "Identical shared scalar Python function; three double values rounded to 6 decimal places."
+  },
+  "implementation": "bucketed_arrow_distinct_tunable_v2",
+  "dedup_buckets": 256,
+  "tuning": {
+    "batch_rows": 16384,
+    "block_mib": 16,
+    "object_store_fraction_override": null,
+    "read_blocks_per_file": 1,
+    "arrow_cpu_threads": 1,
+    "arrow_io_threads": 8,
+    "note": "Object-store capacity is recorded in cluster node resources; the buffering fraction does not change that capacity."
+  },
+  "environment": {
+    "python": "3.11.17",
+    "architecture": "aarch64",
+    "spark": "3.5.7",
+    "ray": "2.49.2",
+    "pyarrow": "19.0.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6"
+  },
+  "cluster": [
+    {
+      "node_id": "5915a011d6506feb16bbc8c16920af5170e06191da1490b6fe98367c",
+      "address": "172.20.0.2",
+      "resources": {
+        "node:172.20.0.2": 1.0,
+        "node:__internal_head__": 1.0,
+        "object_store_memory": 134217728.0,
+        "memory": 268435456.0
+      }
+    },
+    {
+      "node_id": "40bc233dbfd4317a17fc4b53b25e373887d01fd4faaaa8817399c663",
+      "address": "172.20.0.3",
+      "resources": {
+        "node:172.20.0.3": 1.0,
+        "object_store_memory": 1073741824.0,
+        "data_worker": 1.0,
+        "memory": 1073741824.0,
+        "CPU": 2.0
+      }
+    },
+    {
+      "node_id": "96d86a3642b7ba34bc47be042a9e00b9695927b21fa8ae728da68d41",
+      "address": "172.20.0.4",
+      "resources": {
+        "node:172.20.0.4": 1.0,
+        "object_store_memory": 1073741824.0,
+        "data_worker": 1.0,
+        "memory": 1073741824.0,
+        "CPU": 2.0
+      }
+    }
+  ],
+  "timing_scope": "From constructing reads through completed Parquet export; excludes cluster/driver startup and output inspection.",
+  "resources": {
+    "cluster": {
+      "peak_cpu_percent": 444.502113927952,
+      "peak_memory_working_set_bytes": 5905436672,
+      "peak_memory_charged_bytes": 6057046016
+    },
+    "workers": {
+      "peak_cpu_percent": 392.8924777230992,
+      "peak_memory_working_set_bytes": 4417118208,
+      "peak_memory_charged_bytes": 4543553536
+    },
+    "sample_interval_seconds": 1.0,
+    "sample_count": 48,
+    "definition": "Observed aggregate container peaks DURING ingestion-to-export. CPU 100%=one core; memory working set=current-inactive_file. Whole-cluster includes coordinator and driver; workers is the two data nodes only. Sampling may miss sub-second spikes; top raw logs retained.",
+    "container_budgets": [
+      {
+        "name": "ray-head",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 1.5,
+        "memory_limit_bytes": 2684354560
+      },
+      {
+        "name": "ray-worker-1",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 2.0,
+        "memory_limit_bytes": 3221225472
+      },
+      {
+        "name": "ray-worker-2",
+        "image": "sha256:9c36b50b6038051b9e7fc9d19e90af71c7f0fed79f937d2c861044fec0d304c4",
+        "cpu_quota_cores": 2.0,
+        "memory_limit_bytes": 3221225472
+      }
+    ]
+  }
+}

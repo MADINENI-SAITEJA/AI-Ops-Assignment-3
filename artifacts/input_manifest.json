@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "file": "yellow_tripdata_2023-01.parquet",
+      "bytes": 47673370,
+      "rows": 3066766,
+      "sha256": "32df6f67578fa86c484a6b5ef23a5281992ff085521082340b0f9e5889e9a572",
+      "schema": "VendorID: int64\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: double\ntrip_distance: double\nRatecodeID: double\nstore_and_fwd_flag: string\nPULocationID: int64\nDOLocationID: int64\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nairport_fee: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2492"
+    },
+    {
+      "file": "yellow_tripdata_2023-02.parquet",
+      "bytes": 47748012,
+      "rows": 2913955,
+      "sha256": "4809e6aaac64f05a62d16a25d55713be1537ad64fc261e895eaf2d2120fe750a",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-03.parquet",
+      "bytes": 56127762,
+      "rows": 3403766,
+      "sha256": "e7d44943111b007bf0e7084863511886e0db29f862f9a96239383a1f86c6c26e",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-04.parquet",
+      "bytes": 54222699,
+      "rows": 3288250,
+      "sha256": "95c01c53c865e06489179bdecce3a59603697a1557c4d5d183c20ae13a144dc6",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-05.parquet",
+      "bytes": 58654627,
+      "rows": 3513649,
+      "sha256": "9bd7d1c557bb9d0413619ba296b4828b884852a70bd07f2230b83f080d9a8591",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-06.parquet",
+      "bytes": 54999465,
+      "rows": 3307234,
+      "sha256": "3e60e29b5df45683948b68acbfb503aa459d14162c610622585c6580fdbfc73a",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-07.parquet",
+      "bytes": 48361828,
+      "rows": 2907108,
+      "sha256": "98504ae351d920e9e0b61241f5707f90ee1588cfb199c378459234b5035805ab",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-08.parquet",
+      "bytes": 48152353,
+      "rows": 2824209,
+      "sha256": "84ce36a2f84fa14c12fd976c79a7d4f30c871f1782b08ca7c27bb76ab946e66b",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    },
+    {
+      "file": "yellow_tripdata_2023-09.parquet",
+      "bytes": 47895515,
+      "rows": 2846722,
+      "sha256": "091bf156bea5bb10bd217f5f12375f966f8789349af45d5ee4153e3e1e077a87",
+      "schema": "VendorID: int32\ntpep_pickup_datetime: timestamp[us]\ntpep_dropoff_datetime: timestamp[us]\npassenger_count: int64\ntrip_distance: double\nRatecodeID: int64\nstore_and_fwd_flag: large_string\nPULocationID: int32\nDOLocationID: int32\npayment_type: int64\nfare_amount: double\nextra: double\nmta_tax: double\ntip_amount: double\ntolls_amount: double\nimprovement_surcharge: double\ntotal_amount: double\ncongestion_surcharge: double\nAirport_fee: double"
+    }
+  ],
+  "months": 9,
+  "compressed_input_bytes": 463835631,
+  "input_rows": 28071659,
+  "zones": {
+    "file": "taxi_zone_lookup.csv",
+    "rows": 265,
+    "sha256": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed"
+  }
+}

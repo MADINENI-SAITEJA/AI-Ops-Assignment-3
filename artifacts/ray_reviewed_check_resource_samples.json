@@ -1,0 +1,1368 @@
+{
+  "samples": [
+    {
+      "epoch": 1791184440.810422,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 106.05728192654065,
+          "memory_current_bytes": 1286836224,
+          "memory_working_set_bytes": 1270456320
+        },
+        "ray-worker-1": {
+          "cpu_percent": 1.8631010072967347,
+          "memory_current_bytes": 253009920,
+          "memory_working_set_bytes": 252211200
+        },
+        "ray-worker-2": {
+          "cpu_percent": 1.849304329388678,
+          "memory_current_bytes": 253116416,
+          "memory_working_set_bytes": 252194816
+        }
+      }
+    },
+    {
+      "epoch": 1791184441.8113072,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 73.6088523060146,
+          "memory_current_bytes": 1360871424,
+          "memory_working_set_bytes": 1344471040
+        },
+        "ray-worker-1": {
+          "cpu_percent": 74.77640694287406,
+          "memory_current_bytes": 334536704,
+          "memory_working_set_bytes": 333733888
+        },
+        "ray-worker-2": {
+          "cpu_percent": 2.360539451597852,
+          "memory_current_bytes": 253358080,
+          "memory_working_set_bytes": 252436480
+        }
+      }
+    },
+    {
+      "epoch": 1791184442.8121543,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 15.67703994752551,
+          "memory_current_bytes": 1362952192,
+          "memory_working_set_bytes": 1346551808
+        },
+        "ray-worker-1": {
+          "cpu_percent": 51.077101616292765,
+          "memory_current_bytes": 390569984,
+          "memory_working_set_bytes": 389558272
+        },
+        "ray-worker-2": {
+          "cpu_percent": 92.54648777768323,
+          "memory_current_bytes": 373530624,
+          "memory_working_set_bytes": 372391936
+        }
+      }
+    },
+    {
+      "epoch": 1791184443.81296,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 45.41052141629532,
+          "memory_current_bytes": 1377214464,
+          "memory_working_set_bytes": 1359757312
+        },
+        "ray-worker-1": {
+          "cpu_percent": 129.62157164237271,
+          "memory_current_bytes": 654315520,
+          "memory_working_set_bytes": 605683712
+        },
+        "ray-worker-2": {
+          "cpu_percent": 142.1490137808485,
+          "memory_current_bytes": 485572608,
+          "memory_working_set_bytes": 484425728
+        }
+      }
+    },
+    {
+      "epoch": 1791184444.8141248,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 20.375098969750162,
+          "memory_current_bytes": 1377951744,
+          "memory_working_set_bytes": 1360490496
+        },
+        "ray-worker-1": {
+          "cpu_percent": 196.2697149986911,
+          "memory_current_bytes": 883625984,
+          "memory_working_set_bytes": 834977792
+        },
+        "ray-worker-2": {
+          "cpu_percent": 198.10522133300762,
+          "memory_current_bytes": 615297024,
+          "memory_working_set_bytes": 614117376
+        }
+      }
+    },
+    {
+      "epoch": 1791184445.8156018,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 18.24239185658927,
+          "memory_current_bytes": 1378729984,
+          "memory_working_set_bytes": 1361268736
+        },
+        "ray-worker-1": {
+          "cpu_percent": 127.80468561860265,
+          "memory_current_bytes": 1076645888,
+          "memory_working_set_bytes": 1027997696
+        },
+        "ray-worker-2": {
+          "cpu_percent": 94.6152876659204,
+          "memory_current_bytes": 642912256,
+          "memory_working_set_bytes": 641708032
+        }
+      }
+    },
+    {
+      "epoch": 1791184446.816728,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 15.990258830559537,
+          "memory_current_bytes": 1379774464,
+          "memory_working_set_bytes": 1362313216
+        },
+        "ray-worker-1": {
+          "cpu_percent": 108.90480137798464,
+          "memory_current_bytes": 1334853632,
+          "memory_working_set_bytes": 1286205440
+        },
+        "ray-worker-2": {
+          "cpu_percent": 5.946113943950788,
+          "memory_current_bytes": 643170304,
+          "memory_working_set_bytes": 641966080
+        }
+      }
+    },
+    {
+      "epoch": 1791184447.8176658,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 17.791055560193804,
+          "memory_current_bytes": 1380012032,
+          "memory_working_set_bytes": 1362550784
+        },
+        "ray-worker-1": {
+          "cpu_percent": 204.41422950695696,
+          "memory_current_bytes": 1622716416,
+          "memory_working_set_bytes": 1574043648
+        },
+        "ray-worker-2": {
+          "cpu_percent": 65.91415851370694,
+          "memory_current_bytes": 933318656,
+          "memory_working_set_bytes": 932114432
+        }
+      }
+    },
+    {
+      "epoch": 1791184448.8197124,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 26.761113815403213,
+          "memory_current_bytes": 1381265408,
+          "memory_working_set_bytes": 1363804160
+        },
+        "ray-worker-1": {
+          "cpu_percent": 152.57874419755194,
+          "memory_current_bytes": 1950101504,
+          "memory_working_set_bytes": 1901428736
+        },
+        "ray-worker-2": {
+          "cpu_percent": 120.69680807953509,
+          "memory_current_bytes": 1208807424,
+          "memory_working_set_bytes": 1207603200
+        }
+      }
+    },
+    {
+      "epoch": 1791184449.822517,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 63.70928936426165,
+          "memory_current_bytes": 1383129088,
+          "memory_working_set_bytes": 1365663744
+        },
+        "ray-worker-1": {
+          "cpu_percent": 175.01127488865703,
+          "memory_current_bytes": 2079641600,
+          "memory_working_set_bytes": 2030968832
+        },
+        "ray-worker-2": {
+          "cpu_percent": 167.17154851910456,
+          "memory_current_bytes": 1532456960,
+          "memory_working_set_bytes": 1531252736
+        }
+      }
+    },
+    {
+      "epoch": 1791184450.8236315,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 111.09131178668409,
+          "memory_current_bytes": 1431486464,
+          "memory_working_set_bytes": 1413926912
+        },
+        "ray-worker-1": {
+          "cpu_percent": 136.22776636174197,
+          "memory_current_bytes": 2209599488,
+          "memory_working_set_bytes": 2160922624
+        },
+        "ray-worker-2": {
+          "cpu_percent": 148.32080159368763,
+          "memory_current_bytes": 1665384448,
+          "memory_working_set_bytes": 1664163840
+        }
+      }
+    },
+    {
+      "epoch": 1791184451.8248296,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 48.71628972405574,
+          "memory_current_bytes": 1451507712,
+          "memory_working_set_bytes": 1433948160
+        },
+        "ray-worker-1": {
+          "cpu_percent": 170.3077930825734,
+          "memory_current_bytes": 2201133056,
+          "memory_working_set_bytes": 2152419328
+        },
+        "ray-worker-2": {
+          "cpu_percent": 189.8623196034684,
+          "memory_current_bytes": 1678864384,
+          "memory_working_set_bytes": 1677611008
+        }
+      }
+    },
+    {
+      "epoch": 1791184452.8260002,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 26.90523272278295,
+          "memory_current_bytes": 1454022656,
+          "memory_working_set_bytes": 1436463104
+        },
+        "ray-worker-1": {
+          "cpu_percent": 171.6835673645283,
+          "memory_current_bytes": 2214309888,
+          "memory_working_set_bytes": 2165579776
+        },
+        "ray-worker-2": {
+          "cpu_percent": 173.0636361226147,
+          "memory_current_bytes": 1670574080,
+          "memory_working_set_bytes": 1669300224
+        }
+      }
+    },
+    {
+      "epoch": 1791184453.8277192,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 27.12696730547911,
+          "memory_current_bytes": 1455800320,
+          "memory_working_set_bytes": 1438240768
+        },
+        "ray-worker-1": {
+          "cpu_percent": 176.18979046690512,
+          "memory_current_bytes": 2206228480,
+          "memory_working_set_bytes": 2157461504
+        },
+        "ray-worker-2": {
+          "cpu_percent": 171.09098237522218,
+          "memory_current_bytes": 1675513856,
+          "memory_working_set_bytes": 1674207232
+        }
+      }
+    },
+    {
+      "epoch": 1791184454.828516,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 26.710739159801566,
+          "memory_current_bytes": 1457500160,
+          "memory_working_set_bytes": 1439940608
+        },
+        "ray-worker-1": {
+          "cpu_percent": 175.1141170765735,
+          "memory_current_bytes": 2204409856,
+          "memory_working_set_bytes": 2155610112
+        },
+        "ray-worker-2": {
+          "cpu_percent": 169.04079872596665,
+          "memory_current_bytes": 1646542848,
+          "memory_working_set_bytes": 1645203456
+        }
+      }
+    },
+    {
+      "epoch": 1791184455.829486,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 28.221453129713844,
+          "memory_current_bytes": 1461047296,
+          "memory_working_set_bytes": 1443438592
+        },
+        "ray-worker-1": {
+          "cpu_percent": 163.7138953796405,
+          "memory_current_bytes": 2201792512,
+          "memory_working_set_bytes": 2152972288
+        },
+        "ray-worker-2": {
+          "cpu_percent": 173.0956812599017,
+          "memory_current_bytes": 1631539200,
+          "memory_working_set_bytes": 1630175232
+        }
+      }
+    },
+    {
+      "epoch": 1791184456.8303397,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 24.287019224848855,
+          "memory_current_bytes": 1462566912,
+          "memory_working_set_bytes": 1444958208
+        },
+        "ray-worker-1": {
+          "cpu_percent": 174.23777064395102,
+          "memory_current_bytes": 2207277056,
+          "memory_working_set_bytes": 2158432256
+        },
+        "ray-worker-2": {
+          "cpu_percent": 169.35103572918828,
+          "memory_current_bytes": 1614405632,
+          "memory_working_set_bytes": 1613012992
+        }
+      }
+    },
+    {
+      "epoch": 1791184457.8312628,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 19.25066995972483,
+          "memory_current_bytes": 1463771136,
+          "memory_working_set_bytes": 1446162432
+        },
+        "ray-worker-1": {
+          "cpu_percent": 186.54601668658458,
+          "memory_current_bytes": 2208260096,
+          "memory_working_set_bytes": 2159390720
+        },
+        "ray-worker-2": {
+          "cpu_percent": 177.6237679301266,
+          "memory_current_bytes": 1605263360,
+          "memory_working_set_bytes": 1603846144
+        }
+      }
+    },
+    {
+      "epoch": 1791184458.8335006,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 24.583920039348985,
+          "memory_current_bytes": 1465036800,
+          "memory_working_set_bytes": 1447428096
+        },
+        "ray-worker-1": {
+          "cpu_percent": 154.5591333169998,
+          "memory_current_bytes": 2209193984,
+          "memory_working_set_bytes": 2160295936
+        },
+        "ray-worker-2": {
+          "cpu_percent": 164.72548057845842,
+          "memory_current_bytes": 1600061440,
+          "memory_working_set_bytes": 1598611456
+        }
+      }
+    },
+    {
+      "epoch": 1791184459.8372679,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 37.09106187240172,
+          "memory_current_bytes": 1465421824,
+          "memory_working_set_bytes": 1447813120
+        },
+        "ray-worker-1": {
+          "cpu_percent": 201.9942302033764,
+          "memory_current_bytes": 2206883840,
+          "memory_working_set_bytes": 2157981696
+        },
+        "ray-worker-2": {
+          "cpu_percent": 121.41481143690741,
+          "memory_current_bytes": 1594880000,
+          "memory_working_set_bytes": 1593421824
+        }
+      }
+    },
+    {
+      "epoch": 1791184460.8511567,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 63.573716388536525,
+          "memory_current_bytes": 1466552320,
+          "memory_working_set_bytes": 1448894464
+        },
+        "ray-worker-1": {
+          "cpu_percent": 200.2466690591261,
+          "memory_current_bytes": 2141851648,
+          "memory_working_set_bytes": 2092937216
+        },
+        "ray-worker-2": {
+          "cpu_percent": 91.78547847396784,
+          "memory_current_bytes": 1594073088,
+          "memory_working_set_bytes": 1592610816
+        }
+      }
+    },
+    {
+      "epoch": 1791184461.8537717,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 45.223978234725365,
+          "memory_current_bytes": 1467183104,
+          "memory_working_set_bytes": 1449525248
+        },
+        "ray-worker-1": {
+          "cpu_percent": 176.960839201732,
+          "memory_current_bytes": 2146529280,
+          "memory_working_set_bytes": 2097598464
+        },
+        "ray-worker-2": {
+          "cpu_percent": 180.87248917326127,
+          "memory_current_bytes": 1595453440,
+          "memory_working_set_bytes": 1593982976
+        }
+      }
+    },
+    {
+      "epoch": 1791184462.855274,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 30.0972685006375,
+          "memory_current_bytes": 1468252160,
+          "memory_working_set_bytes": 1450594304
+        },
+        "ray-worker-1": {
+          "cpu_percent": 166.86219960484019,
+          "memory_current_bytes": 2146070528,
+          "memory_working_set_bytes": 2097131520
+        },
+        "ray-worker-2": {
+          "cpu_percent": 198.14488046416622,
+          "memory_current_bytes": 1565290496,
+          "memory_working_set_bytes": 1563807744
+        }
+      }
+    },
+    {
+      "epoch": 1791184463.8576548,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 27.665773552348792,
+          "memory_current_bytes": 1469014016,
+          "memory_working_set_bytes": 1451335680
+        },
+        "ray-worker-1": {
+          "cpu_percent": 195.499794362901,
+          "memory_current_bytes": 2145542144,
+          "memory_working_set_bytes": 2096594944
+        },
+        "ray-worker-2": {
+          "cpu_percent": 200.17081007662523,
+          "memory_current_bytes": 1554362368,
+          "memory_working_set_bytes": 1552863232
+        }
+      }
+    },
+    {
+      "epoch": 1791184464.85967,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 29.40192536563272,
+          "memory_current_bytes": 1470246912,
+          "memory_working_set_bytes": 1452568576
+        },
+        "ray-worker-1": {
+          "cpu_percent": 195.00573816782335,
+          "memory_current_bytes": 2151718912,
+          "memory_working_set_bytes": 2102751232
+        },
+        "ray-worker-2": {
+          "cpu_percent": 190.52780384743932,
+          "memory_current_bytes": 1559924736,
+          "memory_working_set_bytes": 1558409216
+        }
+      }
+    },
+    {
+      "epoch": 1791184465.862923,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 28.885484393546296,
+          "memory_current_bytes": 1471168512,
+          "memory_working_set_bytes": 1453441024
+        },
+        "ray-worker-1": {
+          "cpu_percent": 200.02141235303804,
+          "memory_current_bytes": 2149253120,
+          "memory_working_set_bytes": 2100273152
+        },
+        "ray-worker-2": {
+          "cpu_percent": 190.7692765597526,
+          "memory_current_bytes": 1560154112,
+          "memory_working_set_bytes": 1558630400
+        }
+      }
+    },
+    {
+      "epoch": 1791184466.8717687,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 38.265602416411916,
+          "memory_current_bytes": 1471856640,
+          "memory_working_set_bytes": 1454129152
+        },
+        "ray-worker-1": {
+          "cpu_percent": 193.5682878291302,
+          "memory_current_bytes": 2214649856,
+          "memory_working_set_bytes": 2165657600
+        },
+        "ray-worker-2": {
+          "cpu_percent": 172.25780839524265,
+          "memory_current_bytes": 1588510720,
+          "memory_working_set_bytes": 1586974720
+        }
+      }
+    },
+    {
+      "epoch": 1791184467.875899,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 34.155926834271845,
+          "memory_current_bytes": 1472303104,
+          "memory_working_set_bytes": 1454567424
+        },
+        "ray-worker-1": {
+          "cpu_percent": 198.90226522340814,
+          "memory_current_bytes": 2219061248,
+          "memory_working_set_bytes": 2170048512
+        },
+        "ray-worker-2": {
+          "cpu_percent": 183.445491029844,
+          "memory_current_bytes": 1617584128,
+          "memory_working_set_bytes": 1616044032
+        }
+      }
+    },
+    {
+      "epoch": 1791184468.8778656,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 33.59260272974653,
+          "memory_current_bytes": 1473351680,
+          "memory_working_set_bytes": 1455607808
+        },
+        "ray-worker-1": {
+          "cpu_percent": 183.66258927557425,
+          "memory_current_bytes": 2223726592,
+          "memory_working_set_bytes": 2174713856
+        },
+        "ray-worker-2": {
+          "cpu_percent": 201.07240579729685,
+          "memory_current_bytes": 1622958080,
+          "memory_working_set_bytes": 1621409792
+        }
+      }
+    },
+    {
+      "epoch": 1791184469.8797562,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 34.957299731333826,
+          "memory_current_bytes": 1473908736,
+          "memory_working_set_bytes": 1456152576
+        },
+        "ray-worker-1": {
+          "cpu_percent": 169.76294857872296,
+          "memory_current_bytes": 2277220352,
+          "memory_working_set_bytes": 2228203520
+        },
+        "ray-worker-2": {
+          "cpu_percent": 199.57482955301833,
+          "memory_current_bytes": 1617735680,
+          "memory_working_set_bytes": 1616187392
+        }
+      }
+    },
+    {
+      "epoch": 1791184470.881727,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 37.89906732180706,
+          "memory_current_bytes": 1474842624,
+          "memory_working_set_bytes": 1457004544
+        },
+        "ray-worker-1": {
+          "cpu_percent": 161.3574618730822,
+          "memory_current_bytes": 2298388480,
+          "memory_working_set_bytes": 2249367552
+        },
+        "ray-worker-2": {
+          "cpu_percent": 199.47934521224374,
+          "memory_current_bytes": 1633824768,
+          "memory_working_set_bytes": 1632268288
+        }
+      }
+    },
+    {
+      "epoch": 1791184471.8845484,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 45.212784214481665,
+          "memory_current_bytes": 1476476928,
+          "memory_working_set_bytes": 1458630656
+        },
+        "ray-worker-1": {
+          "cpu_percent": 200.09316777315638,
+          "memory_current_bytes": 2268135424,
+          "memory_working_set_bytes": 2219098112
+        },
+        "ray-worker-2": {
+          "cpu_percent": 189.0593106476382,
+          "memory_current_bytes": 1614229504,
+          "memory_working_set_bytes": 1612656640
+        }
+      }
+    },
+    {
+      "epoch": 1791184472.885906,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 41.00877459093514,
+          "memory_current_bytes": 1477230592,
+          "memory_working_set_bytes": 1459376128
+        },
+        "ray-worker-1": {
+          "cpu_percent": 190.224928449934,
+          "memory_current_bytes": 2269335552,
+          "memory_working_set_bytes": 2220290048
+        },
+        "ray-worker-2": {
+          "cpu_percent": 183.31281254638634,
+          "memory_current_bytes": 1589485568,
+          "memory_working_set_bytes": 1587908608
+        }
+      }
+    },
+    {
+      "epoch": 1791184473.8917246,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 30.457634851939225,
+          "memory_current_bytes": 1477419008,
+          "memory_working_set_bytes": 1459556352
+        },
+        "ray-worker-1": {
+          "cpu_percent": 171.3008044149247,
+          "memory_current_bytes": 2271203328,
+          "memory_working_set_bytes": 2222149632
+        },
+        "ray-worker-2": {
+          "cpu_percent": 198.808749216048,
+          "memory_current_bytes": 1577824256,
+          "memory_working_set_bytes": 1576239104
+        }
+      }
+    },
+    {
+      "epoch": 1791184474.8930776,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 32.86163242973706,
+          "memory_current_bytes": 1478959104,
+          "memory_working_set_bytes": 1461096448
+        },
+        "ray-worker-1": {
+          "cpu_percent": 196.2762076074797,
+          "memory_current_bytes": 2269200384,
+          "memory_working_set_bytes": 2220130304
+        },
+        "ray-worker-2": {
+          "cpu_percent": 167.5293180249776,
+          "memory_current_bytes": 1585352704,
+          "memory_working_set_bytes": 1583751168
+        }
+      }
+    },
+    {
+      "epoch": 1791184475.895705,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 28.562894668202734,
+          "memory_current_bytes": 1479704576,
+          "memory_working_set_bytes": 1461792768
+        },
+        "ray-worker-1": {
+          "cpu_percent": 194.83599764964453,
+          "memory_current_bytes": 2271465472,
+          "memory_working_set_bytes": 2222383104
+        },
+        "ray-worker-2": {
+          "cpu_percent": 157.33415923930676,
+          "memory_current_bytes": 1588125696,
+          "memory_working_set_bytes": 1586511872
+        }
+      }
+    },
+    {
+      "epoch": 1791184476.8972673,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 30.846631350299972,
+          "memory_current_bytes": 1479823360,
+          "memory_working_set_bytes": 1461911552
+        },
+        "ray-worker-1": {
+          "cpu_percent": 199.16514688923712,
+          "memory_current_bytes": 2288201728,
+          "memory_working_set_bytes": 2239102976
+        },
+        "ray-worker-2": {
+          "cpu_percent": 168.66520876902365,
+          "memory_current_bytes": 1573376000,
+          "memory_working_set_bytes": 1571758080
+        }
+      }
+    },
+    {
+      "epoch": 1791184477.9035096,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 27.293834640846736,
+          "memory_current_bytes": 1480761344,
+          "memory_working_set_bytes": 1462849536
+        },
+        "ray-worker-1": {
+          "cpu_percent": 136.49180212523444,
+          "memory_current_bytes": 2287267840,
+          "memory_working_set_bytes": 2238152704
+        },
+        "ray-worker-2": {
+          "cpu_percent": 194.9866730451922,
+          "memory_current_bytes": 1582235648,
+          "memory_working_set_bytes": 1580609536
+        }
+      }
+    },
+    {
+      "epoch": 1791184478.9072654,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 32.89596410831621,
+          "memory_current_bytes": 1480445952,
+          "memory_working_set_bytes": 1462534144
+        },
+        "ray-worker-1": {
+          "cpu_percent": 152.20026501735808,
+          "memory_current_bytes": 2286911488,
+          "memory_working_set_bytes": 2237788160
+        },
+        "ray-worker-2": {
+          "cpu_percent": 202.74519591260727,
+          "memory_current_bytes": 1581203456,
+          "memory_working_set_bytes": 1579569152
+        }
+      }
+    },
+    {
+      "epoch": 1791184479.911025,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 29.789815852043716,
+          "memory_current_bytes": 1481334784,
+          "memory_working_set_bytes": 1463422976
+        },
+        "ray-worker-1": {
+          "cpu_percent": 186.59600596151432,
+          "memory_current_bytes": 2292658176,
+          "memory_working_set_bytes": 2243526656
+        },
+        "ray-worker-2": {
+          "cpu_percent": 199.32840804567118,
+          "memory_current_bytes": 1581985792,
+          "memory_working_set_bytes": 1580326912
+        }
+      }
+    },
+    {
+      "epoch": 1791184480.9131868,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 35.339331245743345,
+          "memory_current_bytes": 1482240000,
+          "memory_working_set_bytes": 1464287232
+        },
+        "ray-worker-1": {
+          "cpu_percent": 190.1366706480009,
+          "memory_current_bytes": 2293727232,
+          "memory_working_set_bytes": 2244595712
+        },
+        "ray-worker-2": {
+          "cpu_percent": 152.5903207282995,
+          "memory_current_bytes": 1584291840,
+          "memory_working_set_bytes": 1582624768
+        }
+      }
+    },
+    {
+      "epoch": 1791184481.9143028,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 36.382143051854285,
+          "memory_current_bytes": 1483022336,
+          "memory_working_set_bytes": 1465061376
+        },
+        "ray-worker-1": {
+          "cpu_percent": 199.66000857678415,
+          "memory_current_bytes": 2297466880,
+          "memory_working_set_bytes": 2248327168
+        },
+        "ray-worker-2": {
+          "cpu_percent": 164.99393008042503,
+          "memory_current_bytes": 1582288896,
+          "memory_working_set_bytes": 1580613632
+        }
+      }
+    },
+    {
+      "epoch": 1791184482.9159873,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 27.084400563349536,
+          "memory_current_bytes": 1483870208,
+          "memory_working_set_bytes": 1465909248
+        },
+        "ray-worker-1": {
+          "cpu_percent": 171.49043113942116,
+          "memory_current_bytes": 2305179648,
+          "memory_working_set_bytes": 2256023552
+        },
+        "ray-worker-2": {
+          "cpu_percent": 176.04485608541015,
+          "memory_current_bytes": 1597325312,
+          "memory_working_set_bytes": 1595633664
+        }
+      }
+    },
+    {
+      "epoch": 1791184483.9180403,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 28.216385530106674,
+          "memory_current_bytes": 1484169216,
+          "memory_working_set_bytes": 1466208256
+        },
+        "ray-worker-1": {
+          "cpu_percent": 196.87564090395696,
+          "memory_current_bytes": 2300891136,
+          "memory_working_set_bytes": 2251726848
+        },
+        "ray-worker-2": {
+          "cpu_percent": 176.69857807732953,
+          "memory_current_bytes": 1572274176,
+          "memory_working_set_bytes": 1570566144
+        }
+      }
+    },
+    {
+      "epoch": 1791184484.9196389,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 31.720196249625083,
+          "memory_current_bytes": 1485008896,
+          "memory_working_set_bytes": 1467047936
+        },
+        "ray-worker-1": {
+          "cpu_percent": 196.4446512076785,
+          "memory_current_bytes": 2308894720,
+          "memory_working_set_bytes": 2259714048
+        },
+        "ray-worker-2": {
+          "cpu_percent": 171.9039240511841,
+          "memory_current_bytes": 1585651712,
+          "memory_working_set_bytes": 1583939584
+        }
+      }
+    },
+    {
+      "epoch": 1791184485.9216163,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 32.23702269340638,
+          "memory_current_bytes": 1485656064,
+          "memory_working_set_bytes": 1467645952
+        },
+        "ray-worker-1": {
+          "cpu_percent": 163.44429851153353,
+          "memory_current_bytes": 2312663040,
+          "memory_working_set_bytes": 2263465984
+        },
+        "ray-worker-2": {
+          "cpu_percent": 191.79542366705533,
+          "memory_current_bytes": 1595994112,
+          "memory_working_set_bytes": 1594269696
+        }
+      }
+    },
+    {
+      "epoch": 1791184486.9231386,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 32.34217621037452,
+          "memory_current_bytes": 1488252928,
+          "memory_working_set_bytes": 1470242816
+        },
+        "ray-worker-1": {
+          "cpu_percent": 176.11153785536527,
+          "memory_current_bytes": 2280730624,
+          "memory_working_set_bytes": 2231529472
+        },
+        "ray-worker-2": {
+          "cpu_percent": 196.51611321389694,
+          "memory_current_bytes": 1596620800,
+          "memory_working_set_bytes": 1594880000
+        }
+      }
+    },
+    {
+      "epoch": 1791184487.925108,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 25.065249356396745,
+          "memory_current_bytes": 1488990208,
+          "memory_working_set_bytes": 1470980096
+        },
+        "ray-worker-1": {
+          "cpu_percent": 166.344827690464,
+          "memory_current_bytes": 2280177664,
+          "memory_working_set_bytes": 2230968320
+        },
+        "ray-worker-2": {
+          "cpu_percent": 200.86379036393834,
+          "memory_current_bytes": 1600577536,
+          "memory_working_set_bytes": 1598820352
+        }
+      }
+    },
+    {
+      "epoch": 1791184488.9285853,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 26.57038996392464,
+          "memory_current_bytes": 1489481728,
+          "memory_working_set_bytes": 1471471616
+        },
+        "ray-worker-1": {
+          "cpu_percent": 191.31580758976023,
+          "memory_current_bytes": 2285010944,
+          "memory_working_set_bytes": 2235801600
+        },
+        "ray-worker-2": {
+          "cpu_percent": 167.98614273368503,
+          "memory_current_bytes": 1604567040,
+          "memory_working_set_bytes": 1602801664
+        }
+      }
+    },
+    {
+      "epoch": 1791184489.9299655,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 27.736994904944126,
+          "memory_current_bytes": 1489657856,
+          "memory_working_set_bytes": 1471643648
+        },
+        "ray-worker-1": {
+          "cpu_percent": 180.52909304189086,
+          "memory_current_bytes": 2289479680,
+          "memory_working_set_bytes": 2240253952
+        },
+        "ray-worker-2": {
+          "cpu_percent": 155.5933798388278,
+          "memory_current_bytes": 1606320128,
+          "memory_working_set_bytes": 1604550656
+        }
+      }
+    },
+    {
+      "epoch": 1791184490.9324849,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 36.23620054928791,
+          "memory_current_bytes": 1490362368,
+          "memory_working_set_bytes": 1472299008
+        },
+        "ray-worker-1": {
+          "cpu_percent": 156.93814647172007,
+          "memory_current_bytes": 2287632384,
+          "memory_working_set_bytes": 2238394368
+        },
+        "ray-worker-2": {
+          "cpu_percent": 198.59866806861137,
+          "memory_current_bytes": 1603268608,
+          "memory_working_set_bytes": 1601486848
+        }
+      }
+    },
+    {
+      "epoch": 1791184491.9359522,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 37.392953358321996,
+          "memory_current_bytes": 1491955712,
+          "memory_working_set_bytes": 1473892352
+        },
+        "ray-worker-1": {
+          "cpu_percent": 172.27991517528991,
+          "memory_current_bytes": 2291863552,
+          "memory_working_set_bytes": 2242580480
+        },
+        "ray-worker-2": {
+          "cpu_percent": 179.63955756785245,
+          "memory_current_bytes": 1605750784,
+          "memory_working_set_bytes": 1603919872
+        }
+      }
+    },
+    {
+      "epoch": 1791184492.9371502,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 28.39611963030178,
+          "memory_current_bytes": 1493098496,
+          "memory_working_set_bytes": 1475035136
+        },
+        "ray-worker-1": {
+          "cpu_percent": 170.20156495043935,
+          "memory_current_bytes": 2320777216,
+          "memory_working_set_bytes": 2271485952
+        },
+        "ray-worker-2": {
+          "cpu_percent": 167.0397336515003,
+          "memory_current_bytes": 1612537856,
+          "memory_working_set_bytes": 1610690560
+        }
+      }
+    },
+    {
+      "epoch": 1791184493.939558,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 42.1807086281396,
+          "memory_current_bytes": 1493078016,
+          "memory_working_set_bytes": 1475006464
+        },
+        "ray-worker-1": {
+          "cpu_percent": 137.44914739628072,
+          "memory_current_bytes": 2413236224,
+          "memory_working_set_bytes": 2363944960
+        },
+        "ray-worker-2": {
+          "cpu_percent": 184.29422084135038,
+          "memory_current_bytes": 1744990208,
+          "memory_working_set_bytes": 1743138816
+        }
+      }
+    },
+    {
+      "epoch": 1791184494.9415076,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 35.67213510523361,
+          "memory_current_bytes": 1492713472,
+          "memory_working_set_bytes": 1474633728
+        },
+        "ray-worker-1": {
+          "cpu_percent": 176.09589217722228,
+          "memory_current_bytes": 2433183744,
+          "memory_working_set_bytes": 2383892480
+        },
+        "ray-worker-2": {
+          "cpu_percent": 193.62200886430313,
+          "memory_current_bytes": 1785643008,
+          "memory_working_set_bytes": 1778118656
+        }
+      }
+    },
+    {
+      "epoch": 1791184495.9506018,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 46.92481947393358,
+          "memory_current_bytes": 1492717568,
+          "memory_working_set_bytes": 1474596864
+        },
+        "ray-worker-1": {
+          "cpu_percent": 191.07168815513532,
+          "memory_current_bytes": 2497875968,
+          "memory_working_set_bytes": 2440474624
+        },
+        "ray-worker-2": {
+          "cpu_percent": 194.11897826067775,
+          "memory_current_bytes": 1832603648,
+          "memory_working_set_bytes": 1819250688
+        }
+      }
+    },
+    {
+      "epoch": 1791184496.953782,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 46.70604558617716,
+          "memory_current_bytes": 1493463040,
+          "memory_working_set_bytes": 1475317760
+        },
+        "ray-worker-1": {
+          "cpu_percent": 198.81121753703493,
+          "memory_current_bytes": 2535145472,
+          "memory_working_set_bytes": 2475978752
+        },
+        "ray-worker-2": {
+          "cpu_percent": 145.38202286083398,
+          "memory_current_bytes": 1847148544,
+          "memory_working_set_bytes": 1830629376
+        }
+      }
+    },
+    {
+      "epoch": 1791184497.9565701,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 42.95608838705823,
+          "memory_current_bytes": 1493409792,
+          "memory_working_set_bytes": 1475264512
+        },
+        "ray-worker-1": {
+          "cpu_percent": 188.7764361704015,
+          "memory_current_bytes": 2537136128,
+          "memory_working_set_bytes": 2468876288
+        },
+        "ray-worker-2": {
+          "cpu_percent": 171.54180808875594,
+          "memory_current_bytes": 1872130048,
+          "memory_working_set_bytes": 1852485632
+        }
+      }
+    },
+    {
+      "epoch": 1791184498.9588885,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 42.000153597955425,
+          "memory_current_bytes": 1493872640,
+          "memory_working_set_bytes": 1475710976
+        },
+        "ray-worker-1": {
+          "cpu_percent": 145.45176861854037,
+          "memory_current_bytes": 2532315136,
+          "memory_working_set_bytes": 2459242496
+        },
+        "ray-worker-2": {
+          "cpu_percent": 206.42147733587532,
+          "memory_current_bytes": 1894195200,
+          "memory_working_set_bytes": 1869549568
+        }
+      }
+    },
+    {
+      "epoch": 1791184499.960701,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 35.472360126817,
+          "memory_current_bytes": 1493667840,
+          "memory_working_set_bytes": 1475489792
+        },
+        "ray-worker-1": {
+          "cpu_percent": 180.7994955496716,
+          "memory_current_bytes": 2535628800,
+          "memory_working_set_bytes": 2458558464
+        },
+        "ray-worker-2": {
+          "cpu_percent": 160.9902898395215,
+          "memory_current_bytes": 1905901568,
+          "memory_working_set_bytes": 1874292736
+        }
+      }
+    },
+    {
+      "epoch": 1791184500.9645889,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 43.78412489847924,
+          "memory_current_bytes": 1493741568,
+          "memory_working_set_bytes": 1475547136
+        },
+        "ray-worker-1": {
+          "cpu_percent": 190.88357284358744,
+          "memory_current_bytes": 2576547840,
+          "memory_working_set_bytes": 2496409600
+        },
+        "ray-worker-2": {
+          "cpu_percent": 152.8248756638939,
+          "memory_current_bytes": 1952223232,
+          "memory_working_set_bytes": 1917095936
+        }
+      }
+    },
+    {
+      "epoch": 1791184501.966684,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 39.33238017733326,
+          "memory_current_bytes": 1493946368,
+          "memory_working_set_bytes": 1475694592
+        },
+        "ray-worker-1": {
+          "cpu_percent": 170.2102887902116,
+          "memory_current_bytes": 2588250112,
+          "memory_working_set_bytes": 2499055616
+        },
+        "ray-worker-2": {
+          "cpu_percent": 180.60866845298844,
+          "memory_current_bytes": 1962110976,
+          "memory_working_set_bytes": 1919381504
+        }
+      }
+    },
+    {
+      "epoch": 1791184502.9833758,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 45.36093839159291,
+          "memory_current_bytes": 1493925888,
+          "memory_working_set_bytes": 1475674112
+        },
+        "ray-worker-1": {
+          "cpu_percent": 176.84458786034222,
+          "memory_current_bytes": 2599817216,
+          "memory_working_set_bytes": 2503548928
+        },
+        "ray-worker-2": {
+          "cpu_percent": 181.05064873944463,
+          "memory_current_bytes": 2003849216,
+          "memory_working_set_bytes": 1953243136
+        }
+      }
+    },
+    {
+      "epoch": 1791184503.9861743,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 40.98160787689813,
+          "memory_current_bytes": 1494859776,
+          "memory_working_set_bytes": 1476608000
+        },
+        "ray-worker-1": {
+          "cpu_percent": 183.9550952710281,
+          "memory_current_bytes": 2609745920,
+          "memory_working_set_bytes": 2508333056
+        },
+        "ray-worker-2": {
+          "cpu_percent": 179.39792945239216,
+          "memory_current_bytes": 2008563712,
+          "memory_working_set_bytes": 1950224384
+        }
+      }
+    },
+    {
+      "epoch": 1791184504.9914553,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 34.91697226255747,
+          "memory_current_bytes": 1494568960,
+          "memory_working_set_bytes": 1476317184
+        },
+        "ray-worker-1": {
+          "cpu_percent": 166.62251555249097,
+          "memory_current_bytes": 2631917568,
+          "memory_working_set_bytes": 2519425024
+        },
+        "ray-worker-2": {
+          "cpu_percent": 141.29919636375175,
+          "memory_current_bytes": 2011926528,
+          "memory_working_set_bytes": 1945145344
+        }
+      }
+    },
+    {
+      "epoch": 1791184505.993296,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 116.19560647145728,
+          "memory_current_bytes": 1499979776,
+          "memory_working_set_bytes": 1480982528
+        },
+        "ray-worker-1": {
+          "cpu_percent": 128.95958344665806,
+          "memory_current_bytes": 2145746944,
+          "memory_working_set_bytes": 2029817856
+        },
+        "ray-worker-2": {
+          "cpu_percent": 77.32120358274373,
+          "memory_current_bytes": 1555390464,
+          "memory_working_set_bytes": 1488572416
+        }
+      }
+    },
+    {
+      "epoch": 1791184506.9978476,
+      "containers": {
+        "ray-head": {
+          "cpu_percent": 108.48499911241896,
+          "memory_current_bytes": 1506881536,
+          "memory_working_set_bytes": 1485459456
+        },
+        "ray-worker-1": {
+          "cpu_percent": 30.545886590846788,
+          "memory_current_bytes": 1596403712,
+          "memory_working_set_bytes": 1480454144
+        },
+        "ray-worker-2": {
+          "cpu_percent": 29.725163502794242,
+          "memory_current_bytes": 1145954304,
+          "memory_working_set_bytes": 1079132160
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "command": [
+    "docker",
+    "exec",
+    "ray-head",
+    "python3",
+    "ray_clean_reviewed.py",
+    "--address",
+    "ray-head:6379",
+    "--months",
+    "1",
+    "--partitions",
+    "64",
+    "--read-blocks-per-file",
+    "1",
+    "--block-mib",
+    "64",
+    "--output",
+    "/project/outputs/ray_reviewed_check",
+    "--metrics",
+    "/project/artifacts/ray_reviewed_check.json"
+  ],
+  "command_exit_code": 0,
+  "wrapper_seconds": 67.49033935199986
+}

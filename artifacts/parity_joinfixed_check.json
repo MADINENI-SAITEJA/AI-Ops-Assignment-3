@@ -1,0 +1,20 @@
+{
+  "exact_match": true,
+  "method": "Full bidirectional EXCEPT ALL; no sampling or hash-only comparison",
+  "rows": {
+    "spark": 2884428,
+    "ray": 2884428
+  },
+  "spark_only_rows": 0,
+  "ray_only_rows": 0,
+  "null_rows": {
+    "spark": 0,
+    "ray": 0
+  },
+  "duplicate_groups": {
+    "spark": 0,
+    "ray": 0
+  },
+  "spark_path": "/project/outputs/spark_check",
+  "ray_path": "/project/outputs/ray_joinfixed_check"
+}

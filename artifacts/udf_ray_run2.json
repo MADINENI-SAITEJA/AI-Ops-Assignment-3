@@ -1,0 +1,8 @@
+{
+  "framework": "ray",
+  "base_s": 2.840517044067383,
+  "udf_total_s": 34.90059280395508,
+  "native_total_s": 9.151795387268066,
+  "udf_overhead_s": 32.060075759887695,
+  "native_overhead_s": 6.311278343200684
+}
